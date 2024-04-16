@@ -1,0 +1,10 @@
+{
+  "vimMode": true,
+  "autoPairMarkdown": false,
+  "autoPairBrackets": false,
+  "useTab": false,
+  "spellcheck": false,
+  "attachmentFolderPath": "./Attachments",
+  "useMarkdownLinks": true,
+  "newLinkFormat": "absolute"
+}

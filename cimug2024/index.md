@@ -29,8 +29,8 @@ style: |-
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 1rem;
   }
-footer: "![w:100px h:60px](/cimug2024/Attachments/alliander_logo.png)"
-backgroundImage: linear-gradient(rgba(255,255,255,0.75), rgba(255,255,255,0.75)), url("/cimug2024/Attachments/scott-webb-UjupleczBOY-unsplash.jpg");
+footer: "![w:100px h:60px](Attachments/alliander_logo.png)"
+backgroundImage: linear-gradient(rgba(255,255,255,0.75), rgba(255,255,255,0.75)), url("Attachments/scott-webb-UjupleczBOY-unsplash.jpg");
 ---
 
 <!-- NOTES
@@ -182,7 +182,6 @@ But that shouldn't suffice
 ### Further shortcomings
 
 * No global, namespaced identifiers
-
 
 ----
 

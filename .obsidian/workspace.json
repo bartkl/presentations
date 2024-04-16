@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "3505540d29089819",
+        "id": "445a171ec94eaff5",
         "type": "tabs",
         "children": [
           {
-            "id": "a2744e9a6b9355b1",
+            "id": "f43371059fa460fa",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "cimug2024/index.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -65,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 452.5
   },
   "right": {
     "id": "c851ff40cee13d9f",
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "cimug2024/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "cimug2024/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "cimug2024/index.md"
+              }
             }
           }
         ]
@@ -135,9 +143,21 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "a2744e9a6b9355b1",
-  "lastOpenFiles": []
+  "active": "f43371059fa460fa",
+  "lastOpenFiles": [
+    "cimug2024/Attachments/Pasted image 20240416170727.png",
+    "cimug2024/Attachments/Pasted image 20240416170720.png",
+    "cimug2024/Pasted image 20240416170657.png",
+    "cimug2024/index.md",
+    "cimug2024/Attachments/Semantic Web flowchart 2.excalidraw.light.svg",
+    "cimug2024/Attachments/ik 1.png",
+    "cimug2024/Attachments/CIM Users Group 2024 - CIM Data Products and Linked Data 2024-02-20 07.35.50.excalidraw.md",
+    "cim-ug-2024-cim-data-products-and-linked-data-with-linkml/CIM Users Group 2024 - CIM Data Products and Linked Data 1.md",
+    "cimug2024/Attachments/alliander_logo.jpg",
+    "cimug2024/Attachments"
+  ]
 }

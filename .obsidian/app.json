@@ -6,5 +6,7 @@
   "spellcheck": false,
   "attachmentFolderPath": "./Attachments",
   "useMarkdownLinks": true,
-  "newLinkFormat": "absolute"
+  "newLinkFormat": "relative",
+  "alwaysUpdateLinks": true,
+  "propertiesInDocument": "source"
 }

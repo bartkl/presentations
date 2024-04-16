@@ -2,6 +2,7 @@
 marp: true
 headingDivider: 3
 theme: default
+title: CIM Data Products and Linked Data with LinkML
 size: 16:9
 style: |-
   /* Using the Takashi method. */
@@ -29,7 +30,7 @@ style: |-
     gap: 1rem;
   }
 footer: "![w:100px h:60px](/cimug2024/Attachments/alliander_logo.png)"
-backgroundImage: linear-gradient(rgba(255,255,255,0.75), rgba(255,255,255,0.75)), url("Images/scott-webb-UjupleczBOY-unsplash.jpg");
+backgroundImage: linear-gradient(rgba(255,255,255,0.75), rgba(255,255,255,0.75)), url("/cimug2024/Attachments/scott-webb-UjupleczBOY-unsplash.jpg");
 ---
 
 <!-- NOTES

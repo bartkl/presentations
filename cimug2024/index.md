@@ -8,7 +8,7 @@ style: |-
   section {
     font-family: "Fira Sans";
     font-size: 1.8rem;
-    text-align: center;
+    text-align: left;
   }
   h1 { font-size: 3.0rem; }
   h2 { font-size: 2.8rem; }
@@ -43,7 +43,6 @@ style: |-
 ---
 
 # Building CIM-based Data Products with LinkML: the Linked Data Modeling Language
-<!-- _class: align-left -->
 <!-- _backgroundImage: unset -->
 
 ###### Bart Kleijngeld | May 16th, 2024
@@ -66,8 +65,17 @@ style: |-
 - Enough chit-chat...
     * Let's get started! :muscle:
 
+<!-- Outline.
+
+1. Managing Data in a Decentralized World
+2. Sparx EA
+3. Linked Data and The Semantic Web
+4. LinkML
+5. DEMO
+
+-->
+
 ---
-<!-- _class: align-left -->
 ## Managing Data in a Decentralized World
 
 ---
@@ -76,73 +84,63 @@ style: |-
 In many ways, the world of IT has been decentralizing
 
 ---
-<!-- _class: align-left with-bullets -->
 
-Agile flipped our way of working from top down to **bottom up** so we
-* can move faster
-* improve team autonomy
-* have less waste
+Agile flipped our way of working from top down to **bottom up**
+* which has major consequences for data management and governance
 
-<!-- I won't be going into too much detail: this is not a talk about Agile.-->
+<!--
+- It makes us **move faster** but also have **less control**
+- Getting into why decentralization was necessary is out of scope
+-->
+
+---
+<!-- _class: with-bullets -->
+
+Autonomous teams owning and producing data means
+* no central database or EDW
+* wildgrowth of data models
+* use of myriad of languages and technologies
+
+---
+<!-- _class: with-bullets -->
+
+In a decentral organisation
+
+* How do I discover or find data?
+* How is governance done?
+* What is the meaning of given data and how does it relate to other data?
+* How to make use of the data if it has many different shapes?
+
+<!-- Mention FAIR. -->
 
 ---
 
-This comes with challenges
-* integrating components
-* governing a maintainable landschape
-* standardization and conventions
-
-In short: managing and governing products
 
 
-
-<!-- Not least for data -->
+Information modeling becomes more important
+* but also harder to do
 
 ---
 
-
-How do you govern and manage data in a decentralized architecture?
-
----
-
-Information modeling becomes more important but also harder to do
+Luckily people have come up with good ideas to tackle these challenges
 
 ---
-<!-- _class: align-left with-bullets -->
-
-Decentralization makes you **move faster** but have **less control**
-
----
-
-Luckily people have come up with smart ideas to tackle these challenges
-
----
-<!-- _class: align-left -->
 #### Data Mesh
 
 ![Data Mesh Core Principles.excalidraw.light](Attachments/Data%20Mesh%20Core%20Principles.excalidraw.light.svg)
 <!--
 Mentioned only for reference; we will be looking only at "data as a product"
 
-* Mention the link between Agile and Data Mesh
+* A virtual centralization of sorts (metadata)
+    * govern using metadata
+    * platform or catalog
 -->
 
 ---
-<!-- _class: align-left -->
 
 #### Data Mesh
 
 ![Data Mesh Core Principles DP highlighted.excalidraw.light](Attachments/Data%20Mesh%20Core%20Principles%20DP%20highlighted.excalidraw.light.svg)
-
----
-<!-- _class: align-left with-bullets -->
-
-Data Mesh 
-* centralize 
-* govern using metadata
-* platform or catalog
-* kko
-
 
 ---
 

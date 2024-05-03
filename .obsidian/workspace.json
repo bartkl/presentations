@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "445a171ec94eaff5",
+        "id": "04ab958c1271fbdd",
         "type": "tabs",
         "children": [
           {
-            "id": "f43371059fa460fa",
+            "id": "9d35f338497ed8d1",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "cimug2024/index.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "cimug2024/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "cimug2024/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "cimug2024/index.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -144,22 +136,47 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
+      "marp-slides:Show Slide Preview": false,
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "f43371059fa460fa",
+  "active": "9d35f338497ed8d1",
   "lastOpenFiles": [
-    "package-lock.json",
-    "package.json",
-    "node_modules/mathjax-full/js/util/entities/z.d.ts",
-    "node_modules/mathjax-full/js/util/entities/y.d.ts",
-    "node_modules/mathjax-full/js/util/entities/x.d.ts",
-    "node_modules/mathjax-full/js/output/svg/Wrappers.d.ts",
-    "node_modules/mathjax-full/js/output/chtml/Wrappers.d.ts",
-    "node_modules/mathjax-full/js/output/svg/WrapperFactory.d.ts",
-    "node_modules/mathjax-full/js/output/common/WrapperFactory.d.ts",
-    "node_modules/mathjax-full/js/output/chtml/WrapperFactory.d.ts",
-    "node_modules/mathjax-full/js/core/Tree/WrapperFactory.d.ts",
+    "cimug2024/Attachments/What are Data Products.excalidraw.light.svg",
+    "cimug2024/Attachments/Sparx EA Header BG.excalidraw.light.svg",
+    "cimug2024/Attachments/Sparx EA.excalidraw.md",
+    "cimug2024/Attachments/Sparx EA.excalidraw.dark.svg",
+    "cimug2024/Attachments/Sparx EA 1.excalidraw.dark.svg",
+    "cimug2024/Attachments/Sparx EA 1.excalidraw.light.svg",
+    "cimug2024/Attachments/Semantic Web Model overview.excalidraw.dark.svg",
+    "cimug2024/Attachments/Semantic Web Model overview.excalidraw.md",
+    "cimug2024/Attachments/Semantic Web flowchart.bak.excalidraw.light.svg",
+    "cimug2024/Attachments/Semantic Web flowchart.bak.excalidraw.md",
+    "cimug2024/Attachments/Semantic Web flowchart 2.excalidraw.light.svg",
+    "cimug2024/Attachments/rodolfo-puchulu-jGfIzudYK_Q-unsplash.jpg",
+    "cimug2024/Attachments/RFC3444 Variant.excalidraw.light.svg",
+    "cimug2024/Attachments/MIM Conceptual Framework.excalidraw.light.svg",
+    "cimug2024/Attachments/Data Products Modeling All Layers.excalidraw.md",
+    "cimug2024/Attachments/CIM Users Group 2024 - CIM Data Products and Linked Data 2024-02-20 07.35.50.excalidraw.md",
+    "cimug2024/index.md",
+    "cimug2024/Notes.md",
+    "cimug2024/Attachments/Data Mesh Core Principles.excalidraw.md",
+    "cimug2024/Attachments/Data Mesh Core Principles DP highlighted.excalidraw.md",
+    "cimug2024/index.org.md",
+    "cimug2024/Brainstorm.md",
+    "cimug2024/mindmap.md",
+    "Untitled mindmap 1.md",
+    "Untitled mindmap.md",
+    "cimug2024/Attachments/What are Data Products.excalidraw.html",
+    "cimug2024/Attachments/Sparx EA.excalidraw.html",
+    "cimug2024/Attachments/Sparx EA.bak.excalidraw.html",
+    "cimug2024/Attachments/Sparx EA Header BG.excalidraw.html",
+    "cimug2024/Attachments/Sparx EA 2.excalidraw.html",
+    "cimug2024/Attachments/Sparx EA 1.excalidraw.html",
+    "cimug2024/Attachments/Sparx EA 0.excalidraw.html",
+    "cimug2024/Attachments/Sparx EA - 2.bak.excalidraw.html",
+    "cimug2024/Attachments/Semantic Web flowchart.excalidraw.html",
+    "cimug2024/Attachments/Semantic Web flowchart.bak.excalidraw.html",
     "node_modules/mathjax-full/README.md",
     "node_modules/mathjax-full/CONTRIBUTING.md",
     "node_modules/@marp-team/marpit-svg-polyfill/README.md",
@@ -167,33 +184,9 @@
     "node_modules/@marp-team/marpit/README.md",
     "node_modules/@marp-team/marp-core/README.md",
     "node_modules/puppeteer-core/README.md",
-    "node_modules/highlight.js/styles/brown-papersq.png",
     "node_modules/highlight.js/VERSION_11_UPGRADE.md",
     "node_modules/highlight.js/VERSION_10_UPGRADE.md",
     "node_modules/highlight.js/SUPPORTED_LANGUAGES.md",
-    "node_modules/highlight.js/SECURITY.md",
-    "node_modules/highlight.js/README.md",
-    "node_modules/highlight.js/CHANGES.md",
-    "node_modules/puppeteer-core/src/templates/README.md",
-    "node_modules/puppeteer-core/src/injected/README.md",
-    "node_modules/speech-rule-engine/README.md",
-    "node_modules/speech-rule-engine/bin/README.md",
-    "node_modules/chromium-bidi/README.md",
-    "node_modules/katex/README.md",
-    "node_modules/speech-rule-engine/lib/README.md",
-    "node_modules/@tootallnate/quickjs-emscripten/README.md",
-    "node_modules/@puppeteer/browsers/README.md",
-    "node_modules/markdown-it/README.md",
-    "node_modules/mj-context-menu/README.md",
-    "node_modules/devtools-protocol/README.md",
-    "node_modules/serve-index/public/icons/page_world.png",
-    "node_modules/serve-index/public/icons/page_word.png",
-    "node_modules/serve-index/public/icons/page_white_zip.png",
-    "node_modules/serve-index/public/icons/page_white_wrench.png",
-    "node_modules/serve-index/public/icons/page_white_world.png",
-    "node_modules/serve-index/public/icons/page_white_word.png",
-    "node_modules/serve-index/public/icons/page_white_width.png",
-    "node_modules/serve-index/public/icons/page_white_visualstudio.png",
-    "node_modules/serve-index/public/icons/page_white_vector.png"
+    "node_modules/highlight.js/SECURITY.md"
   ]
 }

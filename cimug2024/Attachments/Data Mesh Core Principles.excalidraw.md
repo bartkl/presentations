@@ -22,7 +22,7 @@ Federated computational governance ^YMQ6cTwf
 {
 	"type": "excalidraw",
 	"version": 2,
-	"source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.0.20",
+	"source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.1.6",
 	"elements": [
 		{
 			"type": "ellipse",
@@ -92,8 +92,7 @@ Federated computational governance ^YMQ6cTwf
 			"verticalAlign": "middle",
 			"containerId": "jYWkQkrdYrzfS1dElWOPJ",
 			"originalText": "Domain-driven data ownership",
-			"lineHeight": 1.25,
-			"baseline": 67
+			"lineHeight": 1.25
 		},
 		{
 			"type": "ellipse",
@@ -163,8 +162,7 @@ Federated computational governance ^YMQ6cTwf
 			"verticalAlign": "middle",
 			"containerId": "0Iu6hDzkDYnE0F87jl6Ga",
 			"originalText": "Data as a product",
-			"lineHeight": 1.25,
-			"baseline": 42
+			"lineHeight": 1.25
 		},
 		{
 			"type": "ellipse",
@@ -234,13 +232,12 @@ Federated computational governance ^YMQ6cTwf
 			"verticalAlign": "middle",
 			"containerId": "WrmRgSoe6FRAe3GmBMxUv",
 			"originalText": "Self-serve data platform",
-			"lineHeight": 1.25,
-			"baseline": 42
+			"lineHeight": 1.25
 		},
 		{
 			"type": "ellipse",
-			"version": 229,
-			"versionNonce": 150045449,
+			"version": 231,
+			"versionNonce": 1893217817,
 			"isDeleted": false,
 			"id": "9CG5-GjZkWE8Rr4L-V9w5",
 			"fillStyle": "hachure",
@@ -267,7 +264,7 @@ Federated computational governance ^YMQ6cTwf
 					"id": "YMQ6cTwf"
 				}
 			],
-			"updated": 1707997562578,
+			"updated": 1713969155410,
 			"link": null,
 			"locked": false
 		},
@@ -305,8 +302,7 @@ Federated computational governance ^YMQ6cTwf
 			"verticalAlign": "middle",
 			"containerId": "9CG5-GjZkWE8Rr4L-V9w5",
 			"originalText": "Federated computational governance",
-			"lineHeight": 1.25,
-			"baseline": 67
+			"lineHeight": 1.25
 		}
 	],
 	"appState": {
@@ -324,10 +320,10 @@ Federated computational governance ^YMQ6cTwf
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
-		"scrollX": 532.8834345890925,
-		"scrollY": 543.0318069458008,
+		"scrollX": 529.7569187709263,
+		"scrollY": 545.2092361450195,
 		"zoom": {
-			"value": 1.3
+			"value": 1.4000000000000001
 		},
 		"currentItemRoundness": "round",
 		"gridSize": null,
@@ -342,7 +338,8 @@ Federated computational governance ^YMQ6cTwf
 			"clip": true,
 			"name": true,
 			"outline": true
-		}
+		},
+		"objectsSnapModeEnabled": false
 	},
 	"files": {}
 }

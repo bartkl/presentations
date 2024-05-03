@@ -1,71 +1,190 @@
 ---
 marp: true
-headingDivider: 3
-theme: default
-title: CIM Data Products and Linked Data with LinkML
+theme: rose-pine-dawn
+title: "Building CIM-based Data Products with LinkML: the Linked Data Modeling Language"
 size: 16:9
+footer: "![w:100px h:60px](Attachments/alliander_logo.png)"
 style: |-
-  /* Using the Takashi method. */
   section {
     font-family: "Fira Sans";
     font-size: 1.8rem;
+    text-align: center;
   }
-  h1 { font-size: 3.7rem; }
-  h2 { font-size: 3.1rem; }
-  h3 { font-size: 2.5rem; }
+  h1 { font-size: 3.0rem; }
+  h2 { font-size: 2.8rem; }
+  h3 { font-size: 2.3rem; }
   h4 { font-size: 1.8rem; }
-  ul {
-    list-style: none;
+  p {
+    font-weight: normal;
+    font-size: 1.8rem;
+  }
+  footer img {
+    background-color: unset;  /* Fixes transparancy. */ 
+  }
+  section.align-center {
+    text-align: center;
+  }
+  section.align-left {
+    text-align: left;
+  }
+  section.with-bullets ol, section.with-bullets ul {
+    list-style: disc;
+    margin-bottom: 0;
+  }
+  ol, ul {
+    list-style: none;  /* No bullet points for fragments. */
+    margin-bottom: 0;
   }
   ul > li,
   ol > li {
+    color: rgb(87, 82, 121);
     margin-top: 1.5rem;
   }
-  section img {
-    background-color: unset;
-  }
-  .columns {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 1rem;
-  }
-footer: "![w:100px h:60px](Attachments/alliander_logo.png)"
-backgroundImage: linear-gradient(rgba(255,255,255,0.75), rgba(255,255,255,0.75)), url("Attachments/scott-webb-UjupleczBOY-unsplash.jpg");
 ---
 
-<!-- NOTES
-* https://www.cimcontextor.net/index.php/en/products/cimcontextor/cimcontextor
--->
-
-# CIM Data Products and Linked Data with LinkML
-<!-- _class: unset -->
+# Building CIM-based Data Products with LinkML: the Linked Data Modeling Language
+<!-- _class: align-left -->
 <!-- _backgroundImage: unset -->
 
 ###### Bart Kleijngeld | May 16th, 2024
 
-![bg cover opacity:0.35](Attachments/scott-webb-mV9-1XjnM4Y-unsplash.jpg)
+![bg opacity:0.3](Attachments/scott-webb-mV9-1XjnM4Y-unsplash.jpg)
 
-## Hello
- <!-- _class: lead -->
- :wave:
+---
 
-![bg contain](Attachments/ik.png)
-* Bart Kleijngeld
-	* Software Developer
-	* Data Architect
+## Hello :wave:
+<!-- _class: align-left -->
 
-## Agenda
+![bg cover right:50%](Attachments/me-coffee.jpg)
+* My name is Bart Kleijngeld
+	* :triangular_ruler: Data Architect
+	* :man_technologist: Software Developer
+    * :walking_man: :musical_note: :film_strip: :books: :seedling: :coffee: :beer: 
 
-1) Data Products and Modeling Challenges
-2) All You Need is Sparx EA
-3) Academic Purity with The Semantic Web
-4) Settling for Pragmatism with LinkML
-5) Demo
+---
+
+- Enough chit-chat...
+    * Let's get started! :muscle:
+
+---
+<!-- _class: align-left -->
+## Managing Data in a Decentralized World
+
+---
+<!-- header: "Managing Data in a Decentralized World" -->
+
+In many ways, the world of IT has been decentralizing
+
+---
+<!-- _class: align-left with-bullets -->
+
+Agile flipped our way of working from top down to **bottom up** so we
+* can move faster
+* improve team autonomy
+* have less waste
+
+<!-- I won't be going into too much detail: this is not a talk about Agile.-->
+
+---
+
+This comes with challenges
+* integrating components
+* governing a maintainable landschape
+* standardization and conventions
+
+In short: managing and governing products
+
+
+
+<!-- Not least for data -->
+
+---
+
+
+How do you govern and manage data in a decentralized architecture?
+
+---
+
+Information modeling becomes more important but also harder to do
+
+---
+<!-- _class: align-left with-bullets -->
+
+Decentralization makes you **move faster** but have **less control**
+
+---
+
+Luckily people have come up with smart ideas to tackle these challenges
+
+---
+<!-- _class: align-left -->
+#### Data Mesh
+
+![Data Mesh Core Principles.excalidraw.light](Attachments/Data%20Mesh%20Core%20Principles.excalidraw.light.svg)
+<!--
+Mentioned only for reference; we will be looking only at "data as a product"
+
+* Mention the link between Agile and Data Mesh
+-->
+
+---
+<!-- _class: align-left -->
+
+#### Data Mesh
+
+![Data Mesh Core Principles DP highlighted.excalidraw.light](Attachments/Data%20Mesh%20Core%20Principles%20DP%20highlighted.excalidraw.light.svg)
+
+---
+<!-- _class: align-left with-bullets -->
+
+Data Mesh 
+* centralize 
+* govern using metadata
+* platform or catalog
+* kko
+
+
+---
+
+## Modeling Data Products
+
+
+---
+
+<!--
+
+1. Agile and Decentralized Architecture
+    1. Moving faster with bottom up, iterative way of working
+    2. Developer autonomy to facilitate this WoW
+    3. Challenges of decentralization
+        1. Loss of control and overview
+        2. No central point of maintenance
+2. Code-Based Model Benefits
+3. Linked Data
+4. Modeling LinkML
+5. 
+
+-->
+
+0) Data Challenges at Alliander
+    1) Shift to Agile Way of Working and Data Mesh
+    2) FAIR
+    3) Governance
+    4) Everlasting Debates
+    5) Interoperability
+2) Data Mesh and Data Products
+3) Building Data Products with Sparx EA
+    1) 
+4) Linked Data
+5) Settling for Pragmatism with LinkML
+6) Demo
+
+---
 
 ## Data Products and Modeling Challenges
 <!-- _class: lead -->
-<!-- // _backgroundImage: unset -->
 
+---
 ### Data Mesh
 
 * Decentralized architecture which empowers teams

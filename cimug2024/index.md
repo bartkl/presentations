@@ -150,16 +150,16 @@ We will focus on the information modeling which is crucial when decentralizing
 
 ---
 
-Recall that we work bottom up, empowering autonomous teams
+Recall we're working bottom up, empowering autonomous teams
 
 ---
 
-Teams themselves maintain the information models
+The information models are maintained by these teams themselves
 
 ---
 
-These teams have their own tools and way of working
-* and we should meet them where they're at
+They have their own tools and way of working
+* and they should be met where they're at
 
 ---
 

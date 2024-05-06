@@ -40,6 +40,19 @@ style: |-
     color: rgb(87, 82, 121);
     margin-top: 1.5rem;
   }
+  table th:empty {
+    display: none;
+  }
+  table tr, table tr:nth-child(2n) {
+    background-color: unset;
+  }
+  table tr > td {
+    border-left: 0;
+    border-right: 0;
+  }
+  table tr:not(:last-child) > td {
+    border-bottom: 0;
+  }
 ---
 
 # Building CIM-based Data Products with LinkML: the Linked Data Modeling Language
@@ -67,156 +80,157 @@ style: |-
 
 <!-- Outline.
 
-1. Managing Data in a Decentralized World
-2. Sparx EA
-3. Linked Data and The Semantic Web
-4. LinkML
-5. DEMO
+1. What is a Data Product?
+2. How to Model a Data Product?
+3. Modeling Data Products with Sparx EA
+4. Linked Data and The Semantic Web
+5. LinkML
 
 -->
 
 ---
-## Managing Data in a Decentralized World
+
+## What is a Data Product?
 
 ---
-<!-- header: "Managing Data in a Decentralized World" -->
+<!-- header: "What is a Data Product?" -->
 
-In many ways, the world of IT has been decentralizing
-
----
-
-Agile flipped our way of working from top down to **bottom up**
-* which has major consequences for data management and governance
-
-<!--
-- It makes us **move faster** but also have **less control**
-- Getting into why decentralization was necessary is out of scope
--->
-
----
-<!-- _class: with-bullets -->
-
-Autonomous teams owning and producing data means
-* no central database or EDW
-* wildgrowth of data models
-* use of myriad of languages and technologies
-
----
-<!-- _class: with-bullets -->
-
-In a decentral organisation
-
-* How do I discover or find data?
-* How is governance done?
-* What is the meaning of given data and how does it relate to other data?
-* How to make use of the data if it has many different shapes?
-
-<!-- Mention FAIR. -->
+To understand data products we first have to talk about decentralized architecture
 
 ---
 
-
-
-Information modeling becomes more important
-* but also harder to do
-
----
-
-Luckily people have come up with good ideas to tackle these challenges
-
----
-#### Data Mesh
+### Data Mesh
 
 ![Data Mesh Core Principles.excalidraw.light](Attachments/Data%20Mesh%20Core%20Principles.excalidraw.light.svg)
-<!--
-Mentioned only for reference; we will be looking only at "data as a product"
-
-* A virtual centralization of sorts (metadata)
-    * govern using metadata
-    * platform or catalog
--->
 
 ---
 
-#### Data Mesh
+### Data Mesh
 
 ![Data Mesh Core Principles DP highlighted.excalidraw.light](Attachments/Data%20Mesh%20Core%20Principles%20DP%20highlighted.excalidraw.light.svg)
 
 ---
 
-## Modeling Data Products
-
-
----
-
-<!--
-
-1. Agile and Decentralized Architecture
-    1. Moving faster with bottom up, iterative way of working
-    2. Developer autonomy to facilitate this WoW
-    3. Challenges of decentralization
-        1. Loss of control and overview
-        2. No central point of maintenance
-2. Code-Based Model Benefits
-3. Linked Data
-4. Modeling LinkML
-5. 
-
--->
-
-0) Data Challenges at Alliander
-    1) Shift to Agile Way of Working and Data Mesh
-    2) FAIR
-    3) Governance
-    4) Everlasting Debates
-    5) Interoperability
-2) Data Mesh and Data Products
-3) Building Data Products with Sparx EA
-    1) 
-4) Linked Data
-5) Settling for Pragmatism with LinkML
-6) Demo
+Let's visualize that mesh
 
 ---
 
-## Data Products and Modeling Challenges
-<!-- _class: lead -->
-
----
-### Data Mesh
-
-* Decentralized architecture which empowers teams
-* ![Data Mesh Core Principles.excalidraw.light](Attachments/Data%20Mesh%20Core%20Principles.excalidraw.light.svg)
-<!-- Mentioned only for reference; we will be looking only at "data as a product" -->
-
----
-
-#### A Mesh of Data Products
 
 ![Data products.excalidraw.light](Attachments/Data%20products.excalidraw.light.svg)
 
-### What is a Data Product?
-
 ---
 
-![bg 80%](Attachments/What%20are%20Data%20Products.excalidraw.light.svg)
+So, what is a data product?
 
+---
 <!--
 - Data outlives technology and organisation, and therefore
 * Data products are abstract
 	* Decoupled from technology/implementation
 	* Metadata driven
+-->
+
+![What are Data Products.excalidraw.light](Attachments/What%20are%20Data%20Products.excalidraw.light.svg)
+<!-- TODO: Improve drawing. -->
+
+---
+
+We will focus on the information modeling which is crucial when decentralizing
+* but it's also harder
+
+---
+<!-- header: "" -->
+
+## Modeling Data Products
+
+---
+<!-- header: "Modeling Data Products" -->
+
+### What modeling requirements are set by Data Mesh?
+
+---
+
+Recall that we work bottom up, empowering autonomous teams
+
+---
+
+Teams themselves maintain the information models
+
+---
+
+These teams have their own tools and way of working
+* and we should meet them where they're at
+
+---
+
+However...
+
+* We *do* still need to be able to manage and govern the data
+
+---
+
+You may not be able to force them to use tools
+* but you can enforce the use of a contract
+
+---
+
+Remember data products?
+
+---
+
+We need information models to be machine-readable
+* as way of a contract
+* exchangeable as part of data products
+
+---
+<!-- _class: with-bullets -->
+
+Moreover, this enables teams to do lots of clever - and familiar - automations
+
+* Version control
+* (Automatic) Generation of code and documentation
+* Data product deployment (CI/CD)
+
+---
+<!-- _class: with-bullets -->
+
+
+
+
+
+- Move quickly
+- Version easily
+- Accessible to maintain
+    - comfortable and easy to learn tech stack
+    - no academic degree in modeling required
+
+|                                                 |                    |
+| ----------------------------------------------- | ------------------ |
+| Accessible to be maintained by teams themselves | :white_check_mark: |
+| CI/CD                                           | :x:                |
+
+
+
+
+
+---
+
+* Machine readable
+    * CI/CD
+    * catalog
+    * federated computational governance
+
+
+
+
+---
+
+<!--
 * Machine readable is nice:
 	* generation
 	* interaction
 	* maintenance
 -->
-
----
-
-A bit of clarification...
-
----
 
 #### NORA &mdash; MIM Conceptual Framework
 <style scoped>

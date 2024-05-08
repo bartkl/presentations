@@ -22,12 +22,13 @@ Federated computational governance ^YMQ6cTwf
 {
 	"type": "excalidraw",
 	"version": 2,
-	"source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.1.6",
+	"source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.1.7",
 	"elements": [
 		{
 			"type": "ellipse",
-			"version": 111,
-			"versionNonce": 751893257,
+			"version": 112,
+			"versionNonce": 124753292,
+			"index": "a0",
 			"isDeleted": false,
 			"id": "jYWkQkrdYrzfS1dElWOPJ",
 			"fillStyle": "hachure",
@@ -54,14 +55,15 @@ Federated computational governance ^YMQ6cTwf
 					"id": "yBkxsLcR"
 				}
 			],
-			"updated": 1707996846906,
+			"updated": 1715011443557,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 53,
-			"versionNonce": 944677385,
+			"version": 54,
+			"versionNonce": 422009140,
+			"index": "a1",
 			"isDeleted": false,
 			"id": "yBkxsLcR",
 			"fillStyle": "solid",
@@ -81,7 +83,7 @@ Federated computational governance ^YMQ6cTwf
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1707996846908,
+			"updated": 1715011443557,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -96,8 +98,9 @@ Federated computational governance ^YMQ6cTwf
 		},
 		{
 			"type": "ellipse",
-			"version": 176,
-			"versionNonce": 2045938889,
+			"version": 177,
+			"versionNonce": 1920795660,
+			"index": "a2",
 			"isDeleted": false,
 			"id": "0Iu6hDzkDYnE0F87jl6Ga",
 			"fillStyle": "hachure",
@@ -124,14 +127,15 @@ Federated computational governance ^YMQ6cTwf
 					"id": "u04oApWv"
 				}
 			],
-			"updated": 1707996846906,
+			"updated": 1715011443557,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 140,
-			"versionNonce": 1064831913,
+			"version": 141,
+			"versionNonce": 1120801460,
+			"index": "a3",
 			"isDeleted": false,
 			"id": "u04oApWv",
 			"fillStyle": "solid",
@@ -151,7 +155,7 @@ Federated computational governance ^YMQ6cTwf
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1707996846906,
+			"updated": 1715011443557,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -166,8 +170,9 @@ Federated computational governance ^YMQ6cTwf
 		},
 		{
 			"type": "ellipse",
-			"version": 220,
-			"versionNonce": 2041228937,
+			"version": 221,
+			"versionNonce": 651731596,
+			"index": "a4",
 			"isDeleted": false,
 			"id": "WrmRgSoe6FRAe3GmBMxUv",
 			"fillStyle": "hachure",
@@ -194,14 +199,15 @@ Federated computational governance ^YMQ6cTwf
 					"id": "4918mJEE"
 				}
 			],
-			"updated": 1707996846906,
+			"updated": 1715011443557,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 217,
-			"versionNonce": 1598420329,
+			"version": 218,
+			"versionNonce": 1247910964,
+			"index": "a5",
 			"isDeleted": false,
 			"id": "4918mJEE",
 			"fillStyle": "solid",
@@ -221,7 +227,7 @@ Federated computational governance ^YMQ6cTwf
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1707996846906,
+			"updated": 1715011443557,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -236,8 +242,9 @@ Federated computational governance ^YMQ6cTwf
 		},
 		{
 			"type": "ellipse",
-			"version": 231,
-			"versionNonce": 1893217817,
+			"version": 234,
+			"versionNonce": 1379466937,
+			"index": "a6",
 			"isDeleted": false,
 			"id": "9CG5-GjZkWE8Rr4L-V9w5",
 			"fillStyle": "hachure",
@@ -264,14 +271,15 @@ Federated computational governance ^YMQ6cTwf
 					"id": "YMQ6cTwf"
 				}
 			],
-			"updated": 1713969155410,
+			"updated": 1715160320122,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 213,
-			"versionNonce": 74739497,
+			"version": 214,
+			"versionNonce": 2043147700,
+			"index": "a7",
 			"isDeleted": false,
 			"id": "YMQ6cTwf",
 			"fillStyle": "solid",
@@ -291,7 +299,7 @@ Federated computational governance ^YMQ6cTwf
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1707996846906,
+			"updated": 1715011443557,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,

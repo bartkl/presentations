@@ -22,12 +22,13 @@ Federated computational governance ^YMQ6cTwf
 {
 	"type": "excalidraw",
 	"version": 2,
-	"source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.1.6",
+	"source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.1.7",
 	"elements": [
 		{
 			"type": "ellipse",
-			"version": 117,
-			"versionNonce": 653697401,
+			"version": 118,
+			"versionNonce": 1539909625,
+			"index": "a0",
 			"isDeleted": false,
 			"id": "jYWkQkrdYrzfS1dElWOPJ",
 			"fillStyle": "hachure",
@@ -54,14 +55,15 @@ Federated computational governance ^YMQ6cTwf
 					"id": "yBkxsLcR"
 				}
 			],
-			"updated": 1713969088353,
+			"updated": 1715160297005,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 59,
-			"versionNonce": 1650003607,
+			"version": 60,
+			"versionNonce": 2126000151,
+			"index": "a1",
 			"isDeleted": false,
 			"id": "yBkxsLcR",
 			"fillStyle": "solid",
@@ -81,7 +83,7 @@ Federated computational governance ^YMQ6cTwf
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1713969088353,
+			"updated": 1715160297005,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -96,8 +98,9 @@ Federated computational governance ^YMQ6cTwf
 		},
 		{
 			"type": "ellipse",
-			"version": 184,
-			"versionNonce": 184534935,
+			"version": 185,
+			"versionNonce": 204718297,
+			"index": "a2",
 			"isDeleted": false,
 			"id": "0Iu6hDzkDYnE0F87jl6Ga",
 			"fillStyle": "hachure",
@@ -124,14 +127,15 @@ Federated computational governance ^YMQ6cTwf
 					"id": "u04oApWv"
 				}
 			],
-			"updated": 1713969105605,
+			"updated": 1715160297005,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 146,
-			"versionNonce": 752431095,
+			"version": 147,
+			"versionNonce": 1384650039,
+			"index": "a3",
 			"isDeleted": false,
 			"id": "u04oApWv",
 			"fillStyle": "solid",
@@ -151,7 +155,7 @@ Federated computational governance ^YMQ6cTwf
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1713969058739,
+			"updated": 1715160297005,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -166,8 +170,9 @@ Federated computational governance ^YMQ6cTwf
 		},
 		{
 			"type": "ellipse",
-			"version": 225,
-			"versionNonce": 1811866103,
+			"version": 226,
+			"versionNonce": 160972217,
+			"index": "a4",
 			"isDeleted": false,
 			"id": "WrmRgSoe6FRAe3GmBMxUv",
 			"fillStyle": "hachure",
@@ -194,14 +199,15 @@ Federated computational governance ^YMQ6cTwf
 					"id": "4918mJEE"
 				}
 			],
-			"updated": 1713969099183,
+			"updated": 1715160297005,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 222,
-			"versionNonce": 22125817,
+			"version": 223,
+			"versionNonce": 694048343,
+			"index": "a5",
 			"isDeleted": false,
 			"id": "4918mJEE",
 			"fillStyle": "solid",
@@ -221,7 +227,7 @@ Federated computational governance ^YMQ6cTwf
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1713969099183,
+			"updated": 1715160297005,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -236,8 +242,9 @@ Federated computational governance ^YMQ6cTwf
 		},
 		{
 			"type": "ellipse",
-			"version": 236,
-			"versionNonce": 1340787353,
+			"version": 238,
+			"versionNonce": 752872599,
+			"index": "a6",
 			"isDeleted": false,
 			"id": "9CG5-GjZkWE8Rr4L-V9w5",
 			"fillStyle": "hachure",
@@ -246,7 +253,7 @@ Federated computational governance ^YMQ6cTwf
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 222.20736694335935,
+			"x": 222.20736694335938,
 			"y": -285.20923614501953,
 			"strokeColor": "#ced4da",
 			"backgroundColor": "#fff5f5",
@@ -264,14 +271,15 @@ Federated computational governance ^YMQ6cTwf
 					"id": "YMQ6cTwf"
 				}
 			],
-			"updated": 1713969127536,
+			"updated": 1715160297063,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 217,
-			"versionNonce": 1797845335,
+			"version": 218,
+			"versionNonce": 168784759,
+			"index": "a7",
 			"isDeleted": false,
 			"id": "YMQ6cTwf",
 			"fillStyle": "solid",
@@ -291,7 +299,7 @@ Federated computational governance ^YMQ6cTwf
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1713969102091,
+			"updated": 1715160297005,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,

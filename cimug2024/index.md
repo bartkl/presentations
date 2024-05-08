@@ -90,6 +90,10 @@ style: |-
 
 ---
 
+So, we're building data products
+
+---
+
 ## What is a Data Product?
 
 ---
@@ -136,7 +140,7 @@ So, what is a data product?
 ---
 
 We will focus on the information modeling which is crucial when decentralizing
-* but it's also harder
+* but also harder
 
 ---
 <!-- header: "" -->
@@ -144,11 +148,139 @@ We will focus on the information modeling which is crucial when decentralizing
 ## Modeling Data Products
 
 ---
+
+Let's build a data product
+* we'll focus on modeling it first
+
+---
 <!-- header: "Modeling Data Products" -->
+<!-- _class: with-bullets -->
+
+To model the data in data products, we need
+* a standardized method/paradigm for logical data modeling
+* software tools to maintain those models with
+* a way of mapping to or directly using the CIM (vertical lineage)
+
+---
+
+For example...
+
+---
+
+TODO: Decide whether to show, edit or delete.
+[](Attachments/index%202024-05-06%2017.48.19.excalidraw.light.svg)
+
+---
+
+There are additional requirements implied by our Data Mesh architecture
+
+---
+<!-- _class: with-bullets -->
+
+![](Attachments/index%202024-05-06%2018.04.22.excalidraw.light.svg)
+
+<!--
+Machine-readable.
+
+* Self-describing data products (formality is not a hard requirement here though)
+* Federated computational governance
+* Discoverability - among other things - in self-serve platform
+
+-->
+
+---
+
+
+
+---
+<!-- _class: with-bullets -->
+
+Agile BizDevOps teams
+
+* teams have to maintain the information
+    * Agile teams love CI/CD
+* models between teams should be interoperable
+
+---
+
+
+### Choosing a modeling language
+
+---
+
+
+
+
 
 ### What modeling requirements are set by Data Mesh?
 
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+---
+
+Data products and their information models
+* are created and maintained by BizDevOps teams themselves
+* serve as contracts between producers and consumers
+
+---
+
+This implies some requirements
+
+---
+
+Contracts are exchanged and therefore should be machine readable
+* this holds in particular for information models
+
+---
+
+Teams have their own tools and way of working
+* and should be met where they're at
+
+---
+
+Moreover, this enables teams to do lots of clever - and familiar - automations
+
+* Version control
+* (Automatic) Generation of code and documentation
+* Data product deployment (CI/CD)
+
+
+
+TODO: Drawing.
+
+---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 Recall we're working bottom up, empowering autonomous teams
 

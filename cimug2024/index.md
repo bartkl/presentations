@@ -43,326 +43,305 @@ style: |-
 ---
 
 # Building CIM-based Data Products with LinkML: the Linked Data Modeling Language
-<!-- _backgroundImage: unset -->
 
 ###### Bart Kleijngeld | May 16th, 2024
-
-![bg opacity:0.3](Attachments/scott-webb-mV9-1XjnM4Y-unsplash.jpg)
 
 ---
 
 ## Hello :wave:
-<!-- _class: align-left -->
 
-![bg cover right:50%](Attachments/me-coffee.jpg)
 * My name is Bart Kleijngeld
 	* :triangular_ruler: Data Architect
 	* :man_technologist: Software Developer
-    * :walking_man: :musical_note: :film_strip: :books: :seedling: :coffee: :beer: 
 
 ---
 
-- Enough chit-chat...
-    * Let's get started! :muscle:
-
-<!-- Outline.
-
-1. Managing Data in a Decentralized World
-2. Sparx EA
-3. Linked Data and The Semantic Web
-4. LinkML
-5. DEMO
-
--->
-
----
-## Managing Data in a Decentralized World
-
----
-<!-- header: "Managing Data in a Decentralized World" -->
-
-In many ways, the world of IT has been decentralizing
+## Managing Data in the Face of Decentralization
 
 ---
 
-Agile flipped our way of working from top down to **bottom up**
-* which has major consequences for data management and governance
-
-<!--
-- It makes us **move faster** but also have **less control**
-- Getting into why decentralization was necessary is out of scope
--->
-
----
-<!-- _class: with-bullets -->
-
-Autonomous teams owning and producing data means
-* no central database or EDW
-* wildgrowth of data models
-* use of myriad of languages and technologies
-
----
-<!-- _class: with-bullets -->
-
-In a decentral organisation
-
-* How do I discover or find data?
-* How is governance done?
-* What is the meaning of given data and how does it relate to other data?
-* How to make use of the data if it has many different shapes?
-
-<!-- Mention FAIR. -->
+### Agile Alliander
 
 ---
 
-
-
-Information modeling becomes more important
-* but also harder to do
+Alliander has been decentralizing
+* The Agile way of working is more bottom-up
 
 ---
 
-Luckily people have come up with good ideas to tackle these challenges
-
----
-#### Data Mesh
-
-![Data Mesh Core Principles.excalidraw.light](Attachments/Data%20Mesh%20Core%20Principles.excalidraw.light.svg)
-<!--
-Mentioned only for reference; we will be looking only at "data as a product"
-
-* A virtual centralization of sorts (metadata)
-    * govern using metadata
-    * platform or catalog
--->
+Autonomous BizDevOps teams can move faster
+* but there is (some) loss of control
 
 ---
 
-#### Data Mesh
-
-![Data Mesh Core Principles DP highlighted.excalidraw.light](Attachments/Data%20Mesh%20Core%20Principles%20DP%20highlighted.excalidraw.light.svg)
+To manage and govern our data, architectural changes are needed
 
 ---
 
-## Modeling Data Products
-
-
----
-
-<!--
-
-1. Agile and Decentralized Architecture
-    1. Moving faster with bottom up, iterative way of working
-    2. Developer autonomy to facilitate this WoW
-    3. Challenges of decentralization
-        1. Loss of control and overview
-        2. No central point of maintenance
-2. Code-Based Model Benefits
-3. Linked Data
-4. Modeling LinkML
-5. 
-
--->
-
-0) Data Challenges at Alliander
-    1) Shift to Agile Way of Working and Data Mesh
-    2) FAIR
-    3) Governance
-    4) Everlasting Debates
-    5) Interoperability
-2) Data Mesh and Data Products
-3) Building Data Products with Sparx EA
-    1) 
-4) Linked Data
-5) Settling for Pragmatism with LinkML
-6) Demo
-
----
-
-## Data Products and Modeling Challenges
-<!-- _class: lead -->
-
----
 ### Data Mesh
 
-* Decentralized architecture which empowers teams
-* ![Data Mesh Core Principles.excalidraw.light](Attachments/Data%20Mesh%20Core%20Principles.excalidraw.light.svg)
-<!-- Mentioned only for reference; we will be looking only at "data as a product" -->
+---
+
+<!-- IMG: Four core principles -->
 
 ---
 
-#### A Mesh of Data Products
-
-![Data products.excalidraw.light](Attachments/Data%20products.excalidraw.light.svg)
-
-### What is a Data Product?
+To give an idea of the mesh...
 
 ---
 
-![bg 80%](Attachments/What%20are%20Data%20Products.excalidraw.light.svg)
+<!-- IMG: Mesh -->
 
-<!--
-- Data outlives technology and organisation, and therefore
-* Data products are abstract
-	* Decoupled from technology/implementation
-	* Metadata driven
-* Machine readable is nice:
-	* generation
-	* interaction
-	* maintenance
+---
+
+### Data Products
+
+---
+
+<!-- IMG: Producer -> dataset -> consumer -->
+
+---
+
+Note that teams are now responsible for describing what their data means
+
+---
+
+## Modeling Data Products with LinkML
+
+---
+
+LinkML is a data modeling language developed in the Bio Sciences department at Berkeley Lab
+* LinkML is also a tool, with a growing ecosystem surrounding it
+
+---
+### The LinkML Modeling Language
+
+---
+
+LinkML is accessible, especially to developers
+* Familiar YAML syntax
+* Easy and familiar semantics
+<!-- Mention: classes, types, inheritance, mixins, properties -->
+
+---
+
+Here's a small example of a LinkML schema
+
+---
+
+```yaml
+classes:
+  ACDCConverterDCTerminal:
+    class_uri: cim:ACDCConverterDCTerminal
+    is_a: DCBaseTerminal
+    from_schema: https://cim.ucaiug.io/ns#TC57CIM.IEC61970.Base.DC
+    description: A DC electrical connection point at the AC/DC converter. The AC/DC
+      converter is electrically connected also to the AC side. The AC connection is
+      inherited from the AC conducting equipment in the same way as any other AC equipment.
+      The AC/DC converter DC terminal is separate from generic DC terminal to restrict
+      the connection with the AC side to AC/DC converter and so that no other DC conducting
+      equipment can be connected to the AC side.
+    attributes:
+      polarity:
+        slot_uri: cim:ACDCConverterDCTerminal.polarity
+        range: DCPolarityKind
+        required: false
+        multivalued: false
+        description: "Represents the normal network polarity condition. Depending\
+          \ on the converter configuration the value shall be set as follows:\r\n\
+          - For a monopole with two converter terminals use DCPolarityKind \u201C\
+          positive\u201D and \u201Cnegative\u201D.\r\n- For a bi-pole or symmetric\
+          \ monopole with three converter terminals use DCPolarityKind \u201Cpositive\u201D\
+          , \u201Cmiddle\u201D and \u201Cnegative\u201D."
+      DCConductingEquipment:
+        slot_uri: cim:ACDCConverterDCTerminal.DCConductingEquipment
+        range: ACDCConverter
+        required: true
+        multivalued: false
+        description: A DC converter terminal belong to an DC converter.
+```
+
+---
+
+Models as YAML files fits right in with the way of working of BizDevOps teams
+* they work with YAML configuration files all the time!
+
+---
+
+LinkML schemas become part of the repository like all other code
+
+---
+
+Collaboration and versioning is done no differently using a VCS like Git
+
+---
+
+People can use their own IDEs, text editors or GUIs for maintaining the model
+* people love to work with their own tools
+* and vendor lock-in can be very costly on the long run
+
+---
+
+### Code and Documentation Generators
+
+---
+
+LinkML also offers a variety of generators you can use to generate code, documentation or other artefacts
+
+---
+
+Currently supported generators include
+* Python
+* SQL DDL
+* HTML documentation
+* Excel
+* JSON Schema
+
+---
+
+As well as generators for Semantic Web space languages
+* SHACL
+* ShEx
+* OWL
+* JSON-LD context
+
+---
+
+If you're missing something, you can easily write your own or modify existing generators
+* long live open source
+
+---
+
+Code and documentation can be generated automatically in CI/CD with little effort
+
+---
+
+Hopefully you agree that this seems to be a great means of enabling BizDevOps team to do data modeling
+* but...
+
+---
+
+- Weren't we supposed to deal with decentralized architecture and describing our data?
+* Where's the CIM in this picture, or information modeling at all for that matter?
+
+---
+
+### Bringing in the CIM
+
+---
+
+The obvious way isto just name things like CIM
+* but...
+
+---
+
+- Different schemas have different naming conventions and restrictions
+- Even if someone has the exact CIM name, it's unclear whether the same version is intended
+
+---
+
+We need more sophisticated means of naming and identification
+
+---
+
+#### Linked Data
+
+---
+
+Tim Berners-Lee envisioned a machine readable counterpart to the The World Wide Web
+* The Semantic Web
+
+---
+
+Part of that is the idea of *Linked Data*
+* linking data in data sets across the web
+
+---
+
+To improve the linking of data, Berners-Lee came up with four rules for Linked Data
+1. Use URIs as names for things
+2. Use HTTP URIs so that people can look up those names.
+3. When someone looks up a URI, provide useful information.
+4. Include links to other URIs. so that they can discover more things.
+
+---
+
+URIs are global identifiers for things
+* so pointing to a URI suffices to identify something
+
+---
+
+<!-- TODO: Emphasize the power here.
+
+- we can describe data models freely
+- and (gradually) standardize with CIM (and other reference models)
+
 -->
 
 ---
 
-A bit of clarification...
+#### CIM and Linked Data
 
 ---
 
-#### NORA &mdash; MIM Conceptual Framework
-<style scoped>
-ul { padding-inline-start: 0 }
-</style>
-  ![width:700px](Attachments/MIM%20Conceptual%20Framework.excalidraw.light.svg)
-<!-- Mention RFC3444-->
-* #### The CIM
-   ![width:700px](Attachments/RFC3444%20Variant.excalidraw.light.svg)
-
-<!--
-* reusable definitions
-* proper model serialization for code generation and CI/CD solutions
-* accessible and easy to maintain documentation of definitions and models
-* expressive modeling languages to cover all needs
--->
-
-### How Do We Model Data Products?
-
-## Sparx EA
-
-![bg 50% opacity:1.0](Attachments/Sparx%20EA%20Header%20BG.excalidraw.light.svg)
-
-### Modeling workflow
+Within the CIM community URIs have been minted for the CIM
 
 ---
 
-![bg 70%](Attachments/Sparx%20EA.excalidraw.light.svg)
+This means every data element in the CIM can be uniquely referenced by its URI
 
 ---
 
-![bg 70%](Attachments/Sparx%20EA%200.excalidraw.light.svg)
+#### Referencing CIM in LinkML
 
 ---
 
-![bg 70%](Attachments/Sparx%20EA%201.excalidraw.light.svg)
-
-<!--
-#### Models are not textual
-
-* Making changes is tedious
-* No access to many tools to help
-	* text editors
-	* search and manipulation tools
-	* language servers
-* Version control and collaboration are non-trivial
-
-#### Model serialization is complex
-
-* Native formats couple you tightly to EA
-	* but standardized formats (like XMI) have limitations and issues
-* We practically have vendor lock-in
-
-#### The metamodel is UML and only UML
-
-* No
-	* top-level slots and individuals, preventing re-use of definitions of attributes and relations
-	* multiple inheritance or mixins
-	* support for global identifiers
-	* support for other metamodels than UML
-
-- Because of the lack of slots, one cannot simply re-use a `name`, but must use complicated inheritance structures to obtain it, or rely on stereotypes. Compare this to how simple RDFS and LinkML make this
--->
+As we've seen, LinkML supports annotating LD URIs
+* This can be used to map to reference models
 
 ---
 
-Sparx EA and UML offer no support for Linked Data in models
-no support for slots
-
-
-### Why Use Sparx EA?
-
-* Normative model of the CIM
-* Accessible and feature rich
+The language supports annotating schema elements with names from reference models
+* like the CIM!
 
 ---
 
-But that shouldn't suffice
-
-### Further shortcomings
-
-* No global, namespaced identifiers
-
-----
-
-#### Schema and documentation generation
-
-* Need to start expensive and heavy application to do generation
-	* so it cannot be run from a CI/CD pipeline for instance
-* No freedom of choice in what programming language you use
-	* and limited choice in development tools
-
-### How do we overcome these challenges?
-
-## The Semantic Web
-
-![bg 30%](Attachments/Semantic%20Web%20Header%20BG.excalidraw.light.svg)
-
-<!-- NOTE:
-- Mention the fear of text, and how developers are working with gigantic models. It's actually better for overview, since it's not a mess with more than a few classes, and you can search and filter and transform text easily.
--->
-
-### Modeling overview
+Let's take a look again at the LinkML schema earlier
+* for brevity I'll leave descriptions out
 
 ---
 
-![bg 70%](Attachments/Semantic%20Web%20flowchart.excalidraw.light.svg)
+```yaml
+classes:
+  ACDCConverterDCTerminal:
+    class_uri: cim:ACDCConverterDCTerminal
+    is_a: DCBaseTerminal
+    attributes:
+      polarity:
+        slot_uri: cim:ACDCConverterDCTerminal.polarity
+        range: DCPolarityKind
+        required: false
+        multivalued: false
+      DCConductingEquipment:
+        slot_uri: cim:ACDCConverterDCTerminal.DCConductingEquipment
+        range: ACDCConverter
+        required: true
+        multivalued: false
+```
 
 ---
 
-![bg 70%](Attachments/Semantic%20Web%20flowchart%202.excalidraw.light.svg)
-
-### Why use Semantic Web technology?
+Using fields like  `class_uri` and `slot_uri` we can standardize schema elements by annotating them with reference model names
 
 ---
 
-It solves many of the issues with Sparx EA
-* but introduces new ones
-
----
-
-#### Everything is plain text
-
----
-
-* Self-documenting
-* Global identifiers using URIs
-	* enabling Linked Data
-* Graph
-* Language tagged literals (langstrings)
+But what are these URIs, and what is this funny notation?
 
 
+### CIM-based Data Products
 
-## LinkML: The Actual Savior
+#### CGMES and CIM in LinkML
 
-## Roadmap
-* LinkML Profiler
-* LinkML Language Server
-* The entire CIM in LinkML schemas
+#### CLI Profiler
 
-## Demo (5 min)
-* Showcase: EN-TSO-E CGMES profiles in LinkML
-	* Generated documentation
-	* Live generation of Pydantic, JSON Schema and SQL DDL
-
-
-----
-
-![ik 1](Attachments/ik%201.png)
+#### 

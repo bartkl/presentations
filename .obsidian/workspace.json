@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "c8cb33a4befef250",
+        "id": "33c31a30152fd381",
         "type": "tabs",
         "children": [
           {
-            "id": "952ec79abb170945",
+            "id": "fce83b32fc219c61",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -16,6 +16,16 @@
                 "file": "cimug2024/index.md",
                 "mode": "source",
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "db53a122e771e916",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "cimug2024/Attachments/index 2024-05-12 16.14.43.excalidraw.md"
               }
             }
           }
@@ -157,52 +167,52 @@
       "marp-slides:Show Slide Preview": false
     }
   },
-  "active": "952ec79abb170945",
+  "active": "fce83b32fc219c61",
   "lastOpenFiles": [
-    "cimug2024/Attachments/index 2024-05-11 21.39.57.excalidraw.md",
+    "cimug2024/Attachments/index 2024-05-12 16.42.35.excalidraw.md",
+    "cimug2024/Attachments/index 2024-05-12 16.42.35.excalidraw.light.svg",
+    "cimug2024/Attachments/index 2024-05-12 16.42.35.excalidraw.dark.svg",
     "cimug2024/index.md",
-    "cimug2024/Attachments/index 2024-05-11 21.39.57.excalidraw.light.svg",
-    "cimug2024/Attachments/index 2024-05-11 21.39.57.excalidraw.dark.svg",
+    "cimug2024/Attachments/index 2024-05-12 16.14.43.excalidraw.md",
+    "cimug2024/Attachments/index 2024-05-12 15.47.34.excalidraw.md",
+    "cimug2024/Attachments/index 2024-05-12 13.54.35.excalidraw.md",
+    "cimug2024/Attachments/index 2024-05-12 16.14.43.excalidraw.light.svg",
+    "cimug2024/Attachments/index 2024-05-12 16.14.43.excalidraw.dark.svg",
+    "cimug2024/Attachments/index 2024-05-12 16.06.21.excalidraw.md",
+    "cimug2024/Attachments/index 2024-05-12 16.06.21.excalidraw.light.svg",
+    "cimug2024/Attachments/index 2024-05-12 16.06.21.excalidraw.dark.svg",
+    "cimug2024/Attachments/index 2024-05-12 15.47.34.excalidraw.light.svg",
+    "cimug2024/Attachments/index 2024-05-12 15.47.34.excalidraw.dark.svg",
+    "cimug2024/Attachments/index 2024-05-12 15.43.37.excalidraw.md",
+    "cimug2024/Attachments/index 2024-05-12 14.25.27.excalidraw.md",
+    "cimug2024.bak/index.md",
+    "cimug2024/Attachments/index 2024-05-12 14.25.27.excalidraw.light.svg",
+    "cimug2024/Attachments/index 2024-05-12 15.43.37.excalidraw.light.svg",
+    "cimug2024/Attachments/linkml-logo_color.png.crdownload",
+    "cimug2024.bak/index.org.md",
+    "cimug2024.bak/Attachments/Data products.excalidraw.md",
+    "cimug2024/Attachments/index 2024-05-12 14.38.25.excalidraw.md",
+    "cimug2024.bak/Attachments/Data Mesh Core Principles.excalidraw.md",
+    "cimug2024.bak/Attachments/Data products.old.excalidraw.md",
+    "cimug2024.bak/Attachments/index 2024-05-08 15.10.39.excalidraw.md",
+    "cimug2024.bak/Attachments/index 2024-05-08 15.18.26.excalidraw.md",
+    "cimug2024/Attachments/index 2024-05-11 21.39.57.excalidraw.md",
     "Excalidraw/Scripts/Downloaded/Palette loader.md",
     "cimug2024/index.from_sparkxea_to_linkml.md",
-    "cimug2024.bak/Attachments/index 2024-05-08 15.10.39.excalidraw.md",
     "cimug2024/Notes.md",
     "Excalidraw/Palettes/Test.md",
-    "cimug2024/Attachments/alliander_logo.png",
     "cimug2024/index.org.md",
     "cimug2024/Brainstorm.md",
     "cimug2024/Attachments/Data Products Modeling All Layers.excalidraw.md",
-    "cimug2024/Attachments/alliander_logo_groen_versimpeld.png",
-    "cimug2024/Attachments/annie-spratt-UR2DMIFuc5c-unsplash.jpg",
-    "cimug2024/Attachments/augustine-wong-zB1JO_sWlOE-unsplash.jpg",
-    "cimug2024/Attachments/alliander_logo_wit.png",
-    "cimug2024/Attachments/alliander_logo_zwart_versimpeld.png",
-    "cimug2024/Attachments/alliander_logo.jpg",
-    "cimug2024.bak/Attachments/vincent-burkhead-LhlxYMfnTF0-unsplash.jpg",
     "cimug2024.bak/Attachments/index 2024-05-08 21.32.24.excalidraw.md",
-    "cimug2024.bak/Attachments/index 2024-05-08 16.45.38.excalidraw.md",
-    "cimug2024.bak/Attachments/index 2024-05-08 15.18.26.excalidraw.md",
-    "cimug2024.bak/Attachments/What are Data Products.excalidraw.md",
     "cimug2024.bak/Attachments/What are Data Products.excalidraw.html",
-    "cimug2024.bak/Attachments/Sparx EA.excalidraw.md",
     "cimug2024.bak/Attachments/Sparx EA.excalidraw.html",
-    "cimug2024.bak/Attachments/Sparx EA.bak.excalidraw.md",
     "cimug2024.bak/Attachments/Sparx EA.bak.excalidraw.html",
-    "cimug2024.bak/Attachments/Sparx EA Header BG.excalidraw.md",
     "cimug2024.bak/Attachments/Sparx EA Header BG.excalidraw.html",
-    "cimug2024.bak/Attachments/Sparx EA 2.excalidraw.md",
     "cimug2024.bak/Attachments/Sparx EA 2.excalidraw.html",
-    "cimug2024.bak/Attachments/Sparx EA 1.excalidraw.md",
     "cimug2024.bak/Attachments/Sparx EA 1.excalidraw.html",
-    "cimug2024.bak/Attachments/Sparx EA 0.excalidraw.md",
     "cimug2024.bak/Attachments/Sparx EA 0.excalidraw.html",
-    "cimug2024.bak/Attachments/Sparx EA - 2.bak.excalidraw.md",
     "cimug2024.bak/Attachments/Sparx EA - 2.bak.excalidraw.html",
-    "cimug2024.bak/Attachments/Semantic Web flowchart.excalidraw.md",
-    "cimug2024.bak/Attachments/Semantic Web flowchart.excalidraw.html",
-    "cimug2024.bak/Attachments/Semantic Web flowchart.bak.excalidraw.md",
-    "cimug2024.bak/Attachments/Semantic Web flowchart.bak.excalidraw.html",
-    "cimug2024.bak/Attachments/Semantic Web flowchart 2.excalidraw.md",
-    "cimug2024.bak/Attachments/Semantic Web Model overview.excalidraw.md"
+    "cimug2024.bak/Attachments/Semantic Web flowchart.excalidraw.html"
   ]
 }

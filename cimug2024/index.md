@@ -1,6 +1,6 @@
 ---
 marp: true
-theme: rose-pine-dawn
+theme: minimal
 title: "Building CIM-based Data Products with LinkML: the Linked Data Modeling Language"
 size: 16:9
 footer: "![w:100px h:60px](Attachments/alliander_logo.png)"
@@ -37,7 +37,8 @@ style: |-
   }
   ul > li,
   ol > li {
-    color: rgb(87, 82, 121);
+    /* color: rgb(87, 82, 121); */
+    color: rgb(31, 35, 40);
     margin-top: 1.5rem;
   }
 ---
@@ -56,41 +57,38 @@ style: |-
 
 ---
 
+Let's get started!
+:muscle:
+
+---
+
 ## Managing Data in the Face of Decentralization
 
 ---
 
-### Agile Alliander
+Enterprise organisations are increasingly working bottom-up.
+* The Agile way of working is a prominent example of this.
 
 ---
 
-Alliander has been decentralizing
-* The Agile way of working is more bottom-up
+Furthermore, organisations are looking to collaborate more by sharing data.
 
 ---
 
-Autonomous BizDevOps teams can move faster
-* but there is (some) loss of control
+![](Attachments/index%202024-05-12%2014.25.27.excalidraw.light.svg)
+
+---
+<!-- _class: with-bullets -->
+
+Managing data we have no or little control over is challenging.
+* What does the data mean?
+* How can the data be used (responsibly)?
+* Who owns the data?
+* Etc.
 
 ---
 
-To manage and govern our data, architectural changes are needed
-
----
-
-### Data Mesh
-
----
-
-<!-- IMG: Four core principles -->
-
----
-
-To give an idea of the mesh...
-
----
-
-<!-- IMG: Mesh -->
+How can we deal with this?
 
 ---
 
@@ -98,41 +96,47 @@ To give an idea of the mesh...
 
 ---
 
-<!-- IMG: Producer -> dataset -> consumer -->
+We will be borrowing the *data as a product* principle from the Data Mesh paradigm to deal with our challenge.
 
 ---
 
-Note that teams are now responsible for describing what their data means
+![](Attachments/index%202024-05-12%2013.54.35.excalidraw.light.svg)
+
+---
+
+If teams are going to be responsible for the information modeling...
+* how can we best enable them?
 
 ---
 
 ## Modeling Data Products with LinkML
 
 ---
+![](Attachments/linkml_resized.png)
 
-LinkML is a data modeling language developed in the Bio Sciences department at Berkeley Lab
-* LinkML is also a tool, with a growing ecosystem surrounding it
-
----
-### The LinkML Modeling Language
+LinkML is a data modeling language developed in the Bio Sciences department at Berkeley Lab.
+* LinkML is also a tool, with a growing ecosystem surrounding it.
 
 ---
+### Authoring LinkML
 
-LinkML is accessible, especially to developers
-* Familiar YAML syntax
-* Easy and familiar semantics
+---
+<!-- _class: with-bullets -->
+
+LinkML is accessible, especially to developers. It has...
+* familiar YAML syntax;
+* easy and familiar semantics.
 <!-- Mention: classes, types, inheritance, mixins, properties -->
 
 ---
 
-Here's a small example of a LinkML schema
+Let's look at a small example of a LinkML schema.
 
 ---
 
 ```yaml
 classes:
   ACDCConverterDCTerminal:
-    class_uri: cim:ACDCConverterDCTerminal
     is_a: DCBaseTerminal
     from_schema: https://cim.ucaiug.io/ns#TC57CIM.IEC61970.Base.DC
     description: A DC electrical connection point at the AC/DC converter. The AC/DC
@@ -143,7 +147,6 @@ classes:
       equipment can be connected to the AC side.
     attributes:
       polarity:
-        slot_uri: cim:ACDCConverterDCTerminal.polarity
         range: DCPolarityKind
         required: false
         multivalued: false
@@ -154,7 +157,6 @@ classes:
           \ monopole with three converter terminals use DCPolarityKind \u201Cpositive\u201D\
           , \u201Cmiddle\u201D and \u201Cnegative\u201D."
       DCConductingEquipment:
-        slot_uri: cim:ACDCConverterDCTerminal.DCConductingEquipment
         range: ACDCConverter
         required: true
         multivalued: false
@@ -162,23 +164,37 @@ classes:
 ```
 
 ---
+<!-- _class: with-bullets -->
 
-Models as YAML files fits right in with the way of working of BizDevOps teams
-* they work with YAML configuration files all the time!
-
----
-
-LinkML schemas become part of the repository like all other code
-
----
-
-Collaboration and versioning is done no differently using a VCS like Git
+Note that teams can use their own tools such as IDEs.
+* This freedom and respect is better for everyone.
+* It prevents costly vendor lock-in issues.
+<!-- Writing and manipulating text is fast and versatile. -->
 
 ---
 
-People can use their own IDEs, text editors or GUIs for maintaining the model
-* people love to work with their own tools
-* and vendor lock-in can be very costly on the long run
+### Maintaining and Organizing Models
+<!-- TODO: More images? Summary? -->
+
+---
+
+Models represented as YAML files fit right in with the way of working of BizDevOps teams.
+* They work with YAML files all the time!
+
+---
+
+LinkML schemas either become part of the repository like all other code...
+* or you create dedicated model repositories: it's up to you.
+
+---
+
+Collaboration and versioning becomes straightforward using a VCS like Git.
+* Again: it's no different from the usual way of working.
+
+---
+
+Even external contributors can make changes...
+* and request merging those back to the upstream model.
 
 ---
 
@@ -186,57 +202,75 @@ People can use their own IDEs, text editors or GUIs for maintaining the model
 
 ---
 
-LinkML also offers a variety of generators you can use to generate code, documentation or other artefacts
+LinkML also offers a variety of generators you can use to generate code, documentation and other artifacts.
 
 ---
 
-Currently supported generators include
+![](Attachments/index%202024-05-12%2015.47.34.excalidraw.light.svg)
+
+<!-- Image includes example generators out of the box:
 * Python
+* JSON-LD
 * SQL DDL
-* HTML documentation
-* Excel
+* Documentation
 * JSON Schema
-
----
-
-As well as generators for Semantic Web space languages
 * SHACL
-* ShEx
-* OWL
-* JSON-LD context
+* and more, including your own extensions
+-->
 
 ---
 
-If you're missing something, you can easily write your own or modify existing generators
-* long live open source
+This can save teams **a lot** of work.
 
 ---
 
-Code and documentation can be generated automatically in CI/CD with little effort
+### Automated Tasks
 
 ---
 
-Hopefully you agree that this seems to be a great means of enabling BizDevOps team to do data modeling
-* but...
+Since LinkML models are simple YAML files, it's very easy to write scripts and programs that utilize them.
+* CI/CD pipelines could be extended to perform these tasks on deployment.
 
 ---
 
-- Weren't we supposed to deal with decentralized architecture and describing our data?
+![](Attachments/index%202024-05-12%2016.14.43.excalidraw.light.svg)
+
+---
+
+Governance rules can also be automated.
+
+---
+<!-- _class: align-center -->
+
+\*\*\*
+
+---
+
+Sure. LinkML looks nice for BizDevOps team to help out with data modeling, but...
+
+---
+
+Weren't we supposed to deal with decentralized architecture and describing our data?
 * Where's the CIM in this picture, or information modeling at all for that matter?
 
 ---
 
-### Bringing in the CIM
+## Bringing in the CIM
 
 ---
 
-The obvious way isto just name things like CIM
-* but...
+The obvious way is to simply name things corresponding to the CIM, but...
 
 ---
+
+![bg width: 50%](Attachments/index%202024-05-12%2016.06.21.excalidraw.light.svg)
+
+---
+<!-- _class: with-bullets -->
 
 - Different schemas have different naming conventions and restrictions
-- Even if someone has the exact CIM name, it's unclear whether the same version is intended
+* Equal names don't imply equality
+* Different names don't imply inequality
 
 ---
 
@@ -244,30 +278,43 @@ We need more sophisticated means of naming and identification
 
 ---
 
-#### Linked Data
+### Linked Data
 
 ---
 
-Tim Berners-Lee envisioned a machine readable counterpart to the The World Wide Web
+Tim Berners-Lee envisioned a machine-readable counterpart to the World Wide Web...
 * The Semantic Web
 
 ---
 
-Part of that is the idea of *Linked Data*
-* linking data in data sets across the web
+A core tenet of this vision is the idea of *linked data*
+* linking data in data sets all across the web
 
 ---
 
-To improve the linking of data, Berners-Lee came up with four rules for Linked Data
-1. Use URIs as names for things
-2. Use HTTP URIs so that people can look up those names.
-3. When someone looks up a URI, provide useful information.
-4. Include links to other URIs. so that they can discover more things.
+![](Attachments/index%202024-05-12%2016.42.35.excalidraw.light.svg)
 
 ---
 
-URIs are global identifiers for things
-* so pointing to a URI suffices to identify something
+That may look familiar. :slightly_smiling_face:
+
+---
+
+Since we don't control all of these data sets, how do we link these points?
+
+---
+
+The main enabler for Linked Data is the use of URIs for global identification.
+
+---
+<!-- _class: with-bullets -->
+
+URIs:
+* are namespaced;
+* are a wellspread and understood phenomenon;
+* have implementations in all sorts of languages.
+
+
 
 ---
 
@@ -280,11 +327,11 @@ URIs are global identifiers for things
 
 ---
 
-#### CIM and Linked Data
+### Referencing CIM in LinkML
 
 ---
 
-Within the CIM community URIs have been minted for the CIM
+Within the CIM community URIs have been crafted for the CIM
 
 ---
 
@@ -292,12 +339,8 @@ This means every data element in the CIM can be uniquely referenced by its URI
 
 ---
 
-#### Referencing CIM in LinkML
-
----
-
-As we've seen, LinkML supports annotating LD URIs
-* This can be used to map to reference models
+For example: the class of a power system resource class is identified by the URI
+`https://cim.ucaiug.io/ns#PowerSystemResource`
 
 ---
 
@@ -306,8 +349,14 @@ The language supports annotating schema elements with names from reference model
 
 ---
 
+Note in particular how easy it is to use multiple reference models
+* this provides immense flexibility and ease of standardization
+* and is usually very difficult to do
+
+---
+
 Let's take a look again at the LinkML schema earlier
-* for brevity I'll leave descriptions out
+* this time with CIM references
 
 ---
 
@@ -329,19 +378,94 @@ classes:
         multivalued: false
 ```
 
+* (`cim:ACDCConverterDCTerminal` is a CURIE, a shorthand for writing URIs)
+
 ---
 
 Using fields like  `class_uri` and `slot_uri` we can standardize schema elements by annotating them with reference model names
 
 ---
 
-But what are these URIs, and what is this funny notation?
+### Profiling CGMES and the CIM
 
+---
 
-### CIM-based Data Products
+Mapping names to reference models is great
+* but sometimes we could use more help
 
-#### CGMES and CIM in LinkML
+---
 
-#### CLI Profiler
+Reference models often have more to offer than just standardized names
 
-#### 
+---
+
+The CIM describes attributes, relations, andsoforth
+* The CIM-based CGMES profiles provide use-case specific constraints
+
+---
+
+It would be nice if we could profile these to get our data products started
+* but who can we do that if CIM and CGMES aren't LinkML
+
+---
+
+No problem, we'll just generate them!
+
+---
+
+#### The CGMES LinkML Schemas
+
+---
+
+I've written a script that has generated a LinkML schema for each CGMES profile
+* It is based on the RDFS 2020 version
+
+---
+
+- The [script](https://github.com/alliander-opensource/cimrdfs2linkml) that generates the LinkML schemas
+- The [LinkML schemas](https://github.com/alliander-opensource/cgmes-profiles)
+- The automatically generated [documenation](https://alliander-opensource.github.io/cgmes-profiles/)
+
+---
+
+#### The CIM LinkML Schemas
+
+---
+
+Similarly, I've generated LinkML schemas for the entire CIM
+* It is based on the Sparx EA project
+
+---
+
+- The [script](https://github.com/bartkl/cim-to-linkml) that generates the LinkML schemas
+- The [LinkML schemas](https://github.com/alliander-opensource/cim-linkml)
+* I haven't generated the documentation yet
+
+---
+
+#### LinkML Profiler
+
+---
+
+Ritger Teunissen has developed a MVP [profiler](https://github.com/ritger-alliander/gen-linkml-profile) for LinkML schemas
+* Currently command-line only
+
+---
+
+Given a CIM or CGMES LinkML schema, you pass in the classes you'd like to use, and it will create a LinkML schema for you
+
+---
+
+It also enables flattening class hierarchies, skipping optional fields, and more
+
+---
+
+## Road Ahead
+
+---
+<!-- _class: with-bullets -->
+
+- Generating LinkML from EA
+* Generating EA UML from LinkML
+* Can we formalize the CIM URIs and solve the challenges with them?
+

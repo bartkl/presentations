@@ -193,6 +193,10 @@ Collaboration and versioning becomes straightforward using a VCS like Git.
 
 ---
 
+![bg height: 20%](Attachments/index%202024-05-12%2019.23.25.excalidraw.light.svg)
+
+---
+
 Even external contributors can make changes...
 * and request merging those back to the upstream model.
 
@@ -268,13 +272,13 @@ The obvious way is to simply name things corresponding to the CIM, but...
 ---
 <!-- _class: with-bullets -->
 
-- Different schemas have different naming conventions and restrictions
-* Equal names don't imply equality
-* Different names don't imply inequality
+- Different schemas have different naming conventions and restrictions;
+* Equal names don't imply equality;
+* Different names don't imply inequality.
 
 ---
 
-We need more sophisticated means of naming and identification
+We need more sophisticated means of naming and identification.
 
 ---
 
@@ -283,12 +287,12 @@ We need more sophisticated means of naming and identification
 ---
 
 Tim Berners-Lee envisioned a machine-readable counterpart to the World Wide Web...
-* The Semantic Web
+* The Semantic Web.
 
 ---
 
-A core tenet of this vision is the idea of *linked data*
-* linking data in data sets all across the web
+A core tenet of this vision is the idea of *linked data*...
+* linking data in data sets all across the web.
 
 ---
 
@@ -314,7 +318,7 @@ The main enabler for Linked Data is the use of URIs for global identification.
 ---
 <!-- _class: with-bullets -->
 
-URIs 
+URIs...
 * can encode ownership in the domain;
 * and can namespace identifiers.
 
@@ -327,17 +331,18 @@ This solves our earlier problem with identification:
 * Different data sets and organisations can use domains and namespaces to provide unique identifiers for everything.
 
 ---
-<!--
 
+By the way, I need to mention compact URIs (CURIEs).
+
+---
+
+![](Attachments/index%202024-05-12%2019.55.05.excalidraw)
+
+---
+
+<!-- TODO: Image? Perhaps a variant on the first one with the identical/different edges, but then the fixed version? -->
 
 \*\*\*
-
-<!-- TODO: Emphasize the power here.
-
-- we can describe data models freely
-- and (gradually) standardize with CIM (and other reference models)
-
--->
 
 ---
 
@@ -345,31 +350,32 @@ This solves our earlier problem with identification:
 
 ---
 
-Within the CIM community URIs have been crafted for the CIM
+Within the CIM community URIs have been crafted for the CIM.
 
 ---
 
-This means every data element in the CIM can be uniquely referenced by its URI
+This means every data element in the CIM can be uniquely referenced by its URI.
 
 ---
 
-For example: the class of a power system resource class is identified by the URI
-`https://cim.ucaiug.io/ns#PowerSystemResource`
+We saw a real life example earlier: `https://cim.ucaiug.io/ns#PowerSystemResource`
 
 ---
 
-The language supports annotating schema elements with names from reference models
+<!-- TODO: Abrupt... -->
+
+LinkML supports annotating schema elements with names from reference models...
 * like the CIM!
 
 ---
 
-Note in particular how easy it is to use multiple reference models
-* this provides immense flexibility and ease of standardization
-* and is usually very difficult to do
+Note in particular how easy it is to use multiple reference models.
+* This provides immense flexibility and ease of standardization.
+* It's usually very difficult to do.
 
 ---
 
-Let's take a look again at the LinkML schema earlier
+Let's take a look again at the LinkML schema earlier...
 * this time with CIM references
 
 ---
@@ -419,7 +425,14 @@ The CIM describes attributes, relations, andsoforth
 ---
 
 It would be nice if we could profile these to get our data products started
-* but who can we do that if CIM and CGMES aren't LinkML
+
+---
+
+![](Attachments/index%202024-05-12%2020.13.34.excalidraw)
+
+---
+
+That would indeed be nice, but how can we do that if CIM and CGMES aren't LinkML?
 
 ---
 
@@ -483,3 +496,4 @@ It also enables flattening class hierarchies, skipping optional fields, and more
 * Generating EA UML from LinkML
 * Can we formalize the CIM URIs and solve the challenges with them?
 
+dddd

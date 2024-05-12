@@ -18,16 +18,6 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "db53a122e771e916",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "cimug2024/Attachments/index 2024-05-12 16.14.43.excalidraw.md"
-              }
-            }
           }
         ]
       }
@@ -79,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 452.5,
-    "collapsed": true
+    "width": 452.5
   },
   "right": {
     "id": "c851ff40cee13d9f",
@@ -170,23 +159,27 @@
   },
   "active": "fce83b32fc219c61",
   "lastOpenFiles": [
-    "cimug2024/Attachments/index 2024-05-12 16.53.18.excalidraw.md",
-    "cimug2024/Attachments/index 2024-05-12 16.53.18.excalidraw.light.svg",
-    "cimug2024/Attachments/index 2024-05-12 16.53.18.excalidraw.dark.svg",
+    "cimug2024/Attachments/index 2024-05-12 20.13.34.excalidraw.md",
     "cimug2024/index.md",
-    "cimug2024/Attachments/index 2024-05-12 16.42.35.excalidraw.md",
-    "cimug2024/Attachments/index 2024-05-12 16.42.35.excalidraw.light.svg",
-    "cimug2024/Attachments/index 2024-05-12 16.42.35.excalidraw.dark.svg",
+    "cimug2024/Attachments/index 2024-05-12 20.13.34.excalidraw.light.svg",
+    "cimug2024/Attachments/index 2024-05-12 20.13.34.excalidraw.dark.svg",
+    "cimug2024/Attachments/index 2024-05-12 16.53.18.excalidraw.light.svg",
+    "cimug2024/Attachments/index 2024-05-12 19.55.05.excalidraw.md",
+    "cimug2024/Attachments/index 2024-05-12 19.55.05.excalidraw.light.svg",
+    "cimug2024/Attachments/index 2024-05-12 19.55.05.excalidraw.dark.svg",
+    "cimug2024/Attachments/index 2024-05-12 16.53.18.excalidraw.md",
+    "cimug2024/Attachments/index 2024-05-12 19.45.10.excalidraw.md",
+    "cimug2024/Attachments/index 2024-05-12 19.45.10.excalidraw.light.svg",
+    "cimug2024/Attachments/index 2024-05-12 19.45.10.excalidraw.dark.svg",
+    "cimug2024/Attachments/index 2024-05-12 16.06.21.excalidraw.md",
     "cimug2024/Attachments/index 2024-05-12 16.14.43.excalidraw.md",
+    "cimug2024/Attachments/index 2024-05-12 19.23.25.excalidraw.md",
+    "cimug2024/Attachments/index 2024-05-12 19.23.25.excalidraw.light.svg",
+    "cimug2024/Attachments/index 2024-05-12 19.23.25.excalidraw.dark.svg",
+    "cimug2024/Attachments/index 2024-05-12 16.53.18.excalidraw.dark.svg",
+    "cimug2024/Attachments/index 2024-05-12 16.42.35.excalidraw.md",
     "cimug2024/Attachments/index 2024-05-12 15.47.34.excalidraw.md",
     "cimug2024/Attachments/index 2024-05-12 13.54.35.excalidraw.md",
-    "cimug2024/Attachments/index 2024-05-12 16.14.43.excalidraw.light.svg",
-    "cimug2024/Attachments/index 2024-05-12 16.14.43.excalidraw.dark.svg",
-    "cimug2024/Attachments/index 2024-05-12 16.06.21.excalidraw.md",
-    "cimug2024/Attachments/index 2024-05-12 16.06.21.excalidraw.light.svg",
-    "cimug2024/Attachments/index 2024-05-12 16.06.21.excalidraw.dark.svg",
-    "cimug2024/Attachments/index 2024-05-12 15.47.34.excalidraw.light.svg",
-    "cimug2024/Attachments/index 2024-05-12 15.47.34.excalidraw.dark.svg",
     "cimug2024/Attachments/index 2024-05-12 15.43.37.excalidraw.md",
     "cimug2024/Attachments/index 2024-05-12 14.25.27.excalidraw.md",
     "cimug2024.bak/index.md",
@@ -202,10 +195,6 @@
     "Excalidraw/Scripts/Downloaded/Palette loader.md",
     "cimug2024/index.from_sparkxea_to_linkml.md",
     "cimug2024/Notes.md",
-    "Excalidraw/Palettes/Test.md",
-    "cimug2024/index.org.md",
-    "cimug2024/Brainstorm.md",
-    "cimug2024/Attachments/Data Products Modeling All Layers.excalidraw.md",
     "cimug2024.bak/Attachments/What are Data Products.excalidraw.html",
     "cimug2024.bak/Attachments/Sparx EA.excalidraw.html",
     "cimug2024.bak/Attachments/Sparx EA.bak.excalidraw.html",

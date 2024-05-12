@@ -296,27 +296,41 @@ A core tenet of this vision is the idea of *linked data*
 
 ---
 
-That may look familiar. :slightly_smiling_face:
+Doesn't that look familiar?
 
 ---
 
 Since we don't control all of these data sets, how do we link these points?
+* As we saw earlier: names tend to be local and can mean different things.
 
 ---
 
 The main enabler for Linked Data is the use of URIs for global identification.
 
 ---
-<!-- _class: with-bullets -->
 
-URIs:
-* are namespaced;
-* are a wellspread and understood phenomenon;
-* have implementations in all sorts of languages.
-
-
+![](Attachments/index%202024-05-12%2016.53.18.excalidraw.light.svg)
 
 ---
+<!-- _class: with-bullets -->
+
+URIs 
+* can encode ownership in the domain;
+* and can namespace identifiers.
+
+---
+<!-- _class: with-bullets -->
+
+This solves our earlier problem with identification:
+* If two things have the same URI, they are the same thing.
+* Watch out though: two different URIs does not necessarily mean the things they refer to are different.
+* Different data sets and organisations can use domains and namespaces to provide unique identifiers for everything.
+
+---
+<!--
+
+
+\*\*\*
 
 <!-- TODO: Emphasize the power here.
 

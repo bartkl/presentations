@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "33c31a30152fd381",
+        "id": "ac093fa8f7e57b08",
         "type": "tabs",
         "children": [
           {
-            "id": "fce83b32fc219c61",
+            "id": "26c05c2ef4d32961",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -104,7 +104,7 @@
               "state": {
                 "file": "cimug2024/index.md",
                 "linksCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               }
             }
           },
@@ -128,17 +128,8 @@
                 "file": "cimug2024/index.md"
               }
             }
-          },
-          {
-            "id": "9727883c77357a8e",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -157,34 +148,36 @@
       "marp-slides:Show Slide Preview": false
     }
   },
-  "active": "fce83b32fc219c61",
+  "active": "591af54b7135b8e6",
   "lastOpenFiles": [
-    "cimug2024/Attachments/index 2024-05-12 20.13.34.excalidraw.md",
+    "cimug2024/Attachments/index 2024-05-12 13.54.35.excalidraw.md",
     "cimug2024/index.md",
+    "cimug2024/Attachments/index 2024-05-13 10.34.00.excalidraw.md",
+    "cimug2024/Attachments/index 2024-05-13 10.34.00.excalidraw.light.svg",
+    "cimug2024/Attachments/index 2024-05-13 10.34.00.excalidraw.dark.svg",
+    "cimug2024/Attachments/index 2024-05-12 19.55.05.excalidraw.md",
+    "cimug2024/Attachments/index 2024-05-12 16.42.35.excalidraw.md",
+    "cimug2024/Attachments/index 2024-05-12 19.45.10.excalidraw.light.svg",
+    "cimug2024/Attachments/index 2024-05-12 19.45.10.excalidraw.dark.svg",
+    "cimug2024/Attachments/index 2024-05-12 19.45.10.excalidraw.md",
+    "cimug2024/Attachments/index 2024-05-12 19.23.25.excalidraw.light.svg",
+    "cimug2024/Attachments/index 2024-05-12 16.14.43.excalidraw.md",
+    "cimug2024/Attachments/index 2024-05-12 19.23.25.excalidraw.md",
+    "cimug2024/Attachments/index 2024-05-12 15.47.34.excalidraw.md",
+    "cimug2024/index.from_sparkxea_to_linkml.md",
+    "cimug2024/Attachments/me-coffee.jpg",
+    "cimug2024.bak/index.org.md",
+    "cimug2024.bak/index.md",
+    "cimug2024/Attachments/index 2024-05-12 20.13.34.excalidraw.md",
     "cimug2024/Attachments/index 2024-05-12 20.13.34.excalidraw.light.svg",
     "cimug2024/Attachments/index 2024-05-12 20.13.34.excalidraw.dark.svg",
     "cimug2024/Attachments/index 2024-05-12 16.53.18.excalidraw.light.svg",
-    "cimug2024/Attachments/index 2024-05-12 19.55.05.excalidraw.md",
     "cimug2024/Attachments/index 2024-05-12 19.55.05.excalidraw.light.svg",
-    "cimug2024/Attachments/index 2024-05-12 19.55.05.excalidraw.dark.svg",
     "cimug2024/Attachments/index 2024-05-12 16.53.18.excalidraw.md",
-    "cimug2024/Attachments/index 2024-05-12 19.45.10.excalidraw.md",
-    "cimug2024/Attachments/index 2024-05-12 19.45.10.excalidraw.light.svg",
-    "cimug2024/Attachments/index 2024-05-12 19.45.10.excalidraw.dark.svg",
     "cimug2024/Attachments/index 2024-05-12 16.06.21.excalidraw.md",
-    "cimug2024/Attachments/index 2024-05-12 16.14.43.excalidraw.md",
-    "cimug2024/Attachments/index 2024-05-12 19.23.25.excalidraw.md",
-    "cimug2024/Attachments/index 2024-05-12 19.23.25.excalidraw.light.svg",
-    "cimug2024/Attachments/index 2024-05-12 19.23.25.excalidraw.dark.svg",
-    "cimug2024/Attachments/index 2024-05-12 16.53.18.excalidraw.dark.svg",
-    "cimug2024/Attachments/index 2024-05-12 16.42.35.excalidraw.md",
-    "cimug2024/Attachments/index 2024-05-12 15.47.34.excalidraw.md",
-    "cimug2024/Attachments/index 2024-05-12 13.54.35.excalidraw.md",
     "cimug2024/Attachments/index 2024-05-12 15.43.37.excalidraw.md",
     "cimug2024/Attachments/index 2024-05-12 14.25.27.excalidraw.md",
-    "cimug2024.bak/index.md",
     "cimug2024/Attachments/linkml-logo_color.png.crdownload",
-    "cimug2024.bak/index.org.md",
     "cimug2024.bak/Attachments/Data products.excalidraw.md",
     "cimug2024/Attachments/index 2024-05-12 14.38.25.excalidraw.md",
     "cimug2024.bak/Attachments/Data Mesh Core Principles.excalidraw.md",
@@ -193,8 +186,6 @@
     "cimug2024.bak/Attachments/index 2024-05-08 15.18.26.excalidraw.md",
     "cimug2024/Attachments/index 2024-05-11 21.39.57.excalidraw.md",
     "Excalidraw/Scripts/Downloaded/Palette loader.md",
-    "cimug2024/index.from_sparkxea_to_linkml.md",
-    "cimug2024/Notes.md",
     "cimug2024.bak/Attachments/What are Data Products.excalidraw.html",
     "cimug2024.bak/Attachments/Sparx EA.excalidraw.html",
     "cimug2024.bak/Attachments/Sparx EA.bak.excalidraw.html",

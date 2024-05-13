@@ -51,9 +51,14 @@ style: |-
 
 ## Hello :wave:
 
-* My name is Bart Kleijngeld
-	* :triangular_ruler: Data Architect
-	* :man_technologist: Software Developer
+![bg fit](Attachments/me-coffee.jpg)
+
+---
+
+- My name is Bart Kleijngeld...
+
+* :triangular_ruler: Data Architect
+* :man_technologist: Software Developer
 
 ---
 
@@ -71,7 +76,8 @@ Enterprise organisations are increasingly working bottom-up.
 
 ---
 
-Furthermore, organisations are looking to collaborate more by sharing data.
+Furthermore, data sharing between organisations is increasing...
+* improving cooperation.
 
 ---
 
@@ -166,10 +172,8 @@ classes:
 ---
 <!-- _class: with-bullets -->
 
-Note that teams can use their own tools such as IDEs.
-* This freedom and respect is better for everyone.
-* It prevents costly vendor lock-in issues.
-<!-- Writing and manipulating text is fast and versatile. -->
+Note how we are not locked into having to use a single application for modeling.
+* Teams can use their prefered tools, most notably their IDEs.
 
 ---
 
@@ -267,7 +271,7 @@ The obvious way is to simply name things corresponding to the CIM, but...
 
 ---
 
-![bg width: 50%](Attachments/index%202024-05-12%2016.06.21.excalidraw.light.svg)
+![bg width: 50%](Attachments/index%202024-05-12%2019.45.10.excalidraw.light.svg)
 
 ---
 <!-- _class: with-bullets -->
@@ -292,7 +296,7 @@ Tim Berners-Lee envisioned a machine-readable counterpart to the World Wide Web.
 ---
 
 A core tenet of this vision is the idea of *linked data*...
-* linking data in data sets all across the web.
+* linking data (sets) all across the web.
 
 ---
 
@@ -300,16 +304,13 @@ A core tenet of this vision is the idea of *linked data*...
 
 ---
 
-Doesn't that look familiar?
+But how do we refer to data from other data sets?
+* Names are usually local...
+* causing the issues we saw earlier.
 
 ---
 
-Since we don't control all of these data sets, how do we link these points?
-* As we saw earlier: names tend to be local and can mean different things.
-
----
-
-The main enabler for Linked Data is the use of URIs for global identification.
+The main enabler for Linked Data is the use of **URI**s for global identification.
 
 ---
 
@@ -320,54 +321,31 @@ The main enabler for Linked Data is the use of URIs for global identification.
 
 URIs...
 * can encode ownership in the domain;
-* and can namespace identifiers.
+* can namespace identifiers.
 
 ---
 <!-- _class: with-bullets -->
 
 This solves our earlier problem with identification:
 * If two things have the same URI, they are the same thing.
-* Watch out though: two different URIs does not necessarily mean the things they refer to are different.
-* Different data sets and organisations can use domains and namespaces to provide unique identifiers for everything.
+    <!-- * Watch out: the reverse is not necessarily true. -->
+* Different data sets and organisations can use namespaces to provide unique identifiers.
 
 ---
 
-By the way, I need to mention compact URIs (CURIEs).
+But how can we use these URIs?
 
 ---
 
-![](Attachments/index%202024-05-12%2019.55.05.excalidraw)
+### Referencing URIs in LinkML
 
 ---
-
-<!-- TODO: Image? Perhaps a variant on the first one with the identical/different edges, but then the fixed version? -->
-
-\*\*\*
-
----
-
-### Referencing CIM in LinkML
-
----
-
-Within the CIM community URIs have been crafted for the CIM.
-
----
-
-This means every data element in the CIM can be uniquely referenced by its URI.
-
----
-
-We saw a real life example earlier: `https://cim.ucaiug.io/ns#PowerSystemResource`
-
----
-
-<!-- TODO: Abrupt... -->
 
 LinkML supports annotating schema elements with names from reference models...
 * like the CIM!
 
 ---
+<!-- _class: with-bullets -->
 
 Note in particular how easy it is to use multiple reference models.
 * This provides immense flexibility and ease of standardization.
@@ -376,7 +354,19 @@ Note in particular how easy it is to use multiple reference models.
 ---
 
 Let's take a look again at the LinkML schema earlier...
-* this time with CIM references
+* this time with CIM references.
+
+---
+
+But before going there, I need to mention compact URIs (CURIEs).
+
+---
+
+![](Attachments/index%202024-05-12%2019.55.05.excalidraw.light.svg)
+
+---
+
+Alright, now we're ready.
 
 ---
 
@@ -398,20 +388,41 @@ classes:
         multivalued: false
 ```
 
-* (`cim:ACDCConverterDCTerminal` is a CURIE, a shorthand for writing URIs)
+---
+
+Using fields like  `class_uri` and `slot_uri` we can standardize schema elements by annotating them with reference model names.
 
 ---
 
-Using fields like  `class_uri` and `slot_uri` we can standardize schema elements by annotating them with reference model names
+LinkML also supports other URI mappings...
+* including expressing relations to business glossary terms using SKOS.
 
 ---
 
-### Profiling CGMES and the CIM
+#### Referencing CIM
 
 ---
 
-Mapping names to reference models is great
-* but sometimes we could use more help
+Within the CIM community URIs have been crafted for the CIM.
+
+---
+
+This means every data element in the CIM can be uniquely referenced by its URI.
+
+---
+
+We saw a real life example earlier: 
+- `https://cim.ucaiug.io/ns#PowerSystemResource`...
+* or `cim:PowerSystemResource`.
+
+---
+
+### Profiling CGMES and the CIM with LinkML
+
+---
+
+Mapping names to reference models is great...
+* but sometimes we could use more help.
 
 ---
 
@@ -419,24 +430,17 @@ Reference models often have more to offer than just standardized names
 
 ---
 
-The CIM describes attributes, relations, andsoforth
-* The CIM-based CGMES profiles provide use-case specific constraints
+The CIM describes attributes, relations, etc.
+* ENTSO-E's CGMES profiles provide use-case specific constraints.
 
 ---
 
-It would be nice if we could profile these to get our data products started
+It would be nice if we could profile these to bootstrap our data products...
+* but how can we do that if we don't have LinkML schemas for the CIM and CGMES?
 
 ---
 
-![](Attachments/index%202024-05-12%2020.13.34.excalidraw)
-
----
-
-That would indeed be nice, but how can we do that if CIM and CGMES aren't LinkML?
-
----
-
-No problem, we'll just generate them!
+Well, we generate those schemas!
 
 ---
 
@@ -444,14 +448,15 @@ No problem, we'll just generate them!
 
 ---
 
-I've written a script that has generated a LinkML schema for each CGMES profile
-* It is based on the RDFS 2020 version
+I've written a script that has generated a LinkML schema for each CGMES profile.
+* It is based on the RDFS 2020 version.
 
 ---
+<!-- _class: with-bullets -->
 
-- The [script](https://github.com/alliander-opensource/cimrdfs2linkml) that generates the LinkML schemas
-- The [LinkML schemas](https://github.com/alliander-opensource/cgmes-profiles)
-- The automatically generated [documenation](https://alliander-opensource.github.io/cgmes-profiles/)
+- The [script](https://github.com/alliander-opensource/cimrdfs2linkml) that generates the LinkML schemas.
+- The [LinkML schemas](https://github.com/alliander-opensource/cgmes-profiles).
+- The automatically generated [documentation](https://alliander-opensource.github.io/cgmes-profiles/).
 
 ---
 
@@ -459,31 +464,38 @@ I've written a script that has generated a LinkML schema for each CGMES profile
 
 ---
 
-Similarly, I've generated LinkML schemas for the entire CIM
-* It is based on the Sparx EA project
+Similarly, I've generated LinkML schemas for the entire CIM.
+* It is based on the Sparx EA project.
 
 ---
+<!-- _class: with-bullets -->
 
-- The [script](https://github.com/bartkl/cim-to-linkml) that generates the LinkML schemas
-- The [LinkML schemas](https://github.com/alliander-opensource/cim-linkml)
-* I haven't generated the documentation yet
+- The [script](https://github.com/bartkl/cim-to-linkml) that generates the LinkML schemas.
+- The [LinkML schemas](https://github.com/alliander-opensource/cim-linkml).
+* The documentation hasn't been generated yet.
 
 ---
 
 #### LinkML Profiler
 
 ---
+<!-- _class: with-bullets -->
 
-Ritger Teunissen has developed a MVP [profiler](https://github.com/ritger-alliander/gen-linkml-profile) for LinkML schemas
-* Currently command-line only
-
----
-
-Given a CIM or CGMES LinkML schema, you pass in the classes you'd like to use, and it will create a LinkML schema for you
+Ritger Teunissen has developed a MVP [profiler](https://github.com/ritger-alliander/gen-linkml-profile) for LinkML schemas.
+* Currently command-line only...
+* but building a simple GUI is anticipated.
 
 ---
 
-It also enables flattening class hierarchies, skipping optional fields, and more
+Given a CIM or CGMES LinkML schema, you pass in the classes you'd like to use, and it will create a LinkML schema for you.
+
+---
+
+![](Attachments/index%202024-05-13%2010.34.00.excalidraw)
+
+---
+
+It also enables flattening class hierarchies, skipping optional fields, and more.
 
 ---
 
@@ -495,5 +507,3 @@ It also enables flattening class hierarchies, skipping optional fields, and more
 - Generating LinkML from EA
 * Generating EA UML from LinkML
 * Can we formalize the CIM URIs and solve the challenges with them?
-
-dddd

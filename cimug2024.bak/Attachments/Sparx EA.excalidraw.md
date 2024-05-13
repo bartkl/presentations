@@ -48,12 +48,13 @@ Sparx EA ^q2H6UAOP
 {
 	"type": "excalidraw",
 	"version": 2,
-	"source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.0.21",
+	"source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.1.7",
 	"elements": [
 		{
 			"type": "ellipse",
-			"version": 356,
-			"versionNonce": 1768261450,
+			"version": 357,
+			"versionNonce": 1164926839,
+			"index": "a0",
 			"isDeleted": false,
 			"id": "So-zBTe_G4NvqNCS87hpn",
 			"fillStyle": "hachure",
@@ -80,14 +81,15 @@ Sparx EA ^q2H6UAOP
 					"id": "hivktUVV"
 				}
 			],
-			"updated": 1708421583113,
+			"updated": 1715176804199,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 357,
-			"versionNonce": 1863379542,
+			"version": 358,
+			"versionNonce": 324122489,
+			"index": "a1",
 			"isDeleted": false,
 			"id": "hivktUVV",
 			"fillStyle": "hachure",
@@ -107,7 +109,7 @@ Sparx EA ^q2H6UAOP
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1708421583113,
+			"updated": 1715176804199,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -118,13 +120,13 @@ Sparx EA ^q2H6UAOP
 			"verticalAlign": "middle",
 			"containerId": "So-zBTe_G4NvqNCS87hpn",
 			"originalText": "UML",
-			"lineHeight": 1.25,
-			"baseline": 17
+			"lineHeight": 1.25
 		},
 		{
 			"type": "ellipse",
-			"version": 518,
-			"versionNonce": 1988759050,
+			"version": 519,
+			"versionNonce": 1298290839,
+			"index": "a2",
 			"isDeleted": false,
 			"id": "x0D4PfC75XWMBmQu3ymRB",
 			"fillStyle": "hachure",
@@ -151,14 +153,15 @@ Sparx EA ^q2H6UAOP
 					"id": "gq1aFNLG"
 				}
 			],
-			"updated": 1708421583113,
+			"updated": 1715176804199,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 560,
-			"versionNonce": 426586006,
+			"version": 561,
+			"versionNonce": 1929273433,
+			"index": "a3",
 			"isDeleted": false,
 			"id": "gq1aFNLG",
 			"fillStyle": "hachure",
@@ -178,7 +181,7 @@ Sparx EA ^q2H6UAOP
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1708421583113,
+			"updated": 1715176804199,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -189,13 +192,13 @@ Sparx EA ^q2H6UAOP
 			"verticalAlign": "middle",
 			"containerId": "x0D4PfC75XWMBmQu3ymRB",
 			"originalText": "EA Project Model",
-			"lineHeight": 1.25,
-			"baseline": 42
+			"lineHeight": 1.25
 		},
 		{
 			"type": "rectangle",
-			"version": 223,
-			"versionNonce": 1659878602,
+			"version": 224,
+			"versionNonce": 182005175,
+			"index": "a4",
 			"isDeleted": false,
 			"id": "dY6KAI8iIQHKI0qvQQ445",
 			"fillStyle": "hachure",
@@ -226,14 +229,15 @@ Sparx EA ^q2H6UAOP
 					"type": "arrow"
 				}
 			],
-			"updated": 1708421583113,
+			"updated": 1715176804199,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "ellipse",
-			"version": 237,
-			"versionNonce": 448512330,
+			"version": 238,
+			"versionNonce": 216198457,
+			"index": "a5",
 			"isDeleted": false,
 			"id": "RGfOFuvGs4wjIPOA5YsQB",
 			"fillStyle": "hachure",
@@ -268,14 +272,15 @@ Sparx EA ^q2H6UAOP
 					"type": "arrow"
 				}
 			],
-			"updated": 1708421729077,
+			"updated": 1715176804199,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 230,
-			"versionNonce": 2083623818,
+			"version": 231,
+			"versionNonce": 1492672215,
+			"index": "a6",
 			"isDeleted": false,
 			"id": "sayfgdIg",
 			"fillStyle": "solid",
@@ -295,7 +300,7 @@ Sparx EA ^q2H6UAOP
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1708421583113,
+			"updated": 1715176804199,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -306,13 +311,13 @@ Sparx EA ^q2H6UAOP
 			"verticalAlign": "middle",
 			"containerId": "RGfOFuvGs4wjIPOA5YsQB",
 			"originalText": "Information Model",
-			"lineHeight": 1.25,
-			"baseline": 42
+			"lineHeight": 1.25
 		},
 		{
 			"type": "ellipse",
-			"version": 358,
-			"versionNonce": 1208664598,
+			"version": 359,
+			"versionNonce": 409132569,
+			"index": "a7",
 			"isDeleted": false,
 			"id": "0YgS8rPHb6UzQJI9hTKFH",
 			"fillStyle": "hachure",
@@ -343,14 +348,15 @@ Sparx EA ^q2H6UAOP
 					"type": "arrow"
 				}
 			],
-			"updated": 1708421583113,
+			"updated": 1715176804199,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 319,
-			"versionNonce": 613061194,
+			"version": 320,
+			"versionNonce": 978611191,
+			"index": "a8",
 			"isDeleted": false,
 			"id": "sP1ulp7l",
 			"fillStyle": "solid",
@@ -370,7 +376,7 @@ Sparx EA ^q2H6UAOP
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1708421583113,
+			"updated": 1715176804199,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -381,13 +387,13 @@ Sparx EA ^q2H6UAOP
 			"verticalAlign": "middle",
 			"containerId": "0YgS8rPHb6UzQJI9hTKFH",
 			"originalText": "Profile",
-			"lineHeight": 1.25,
-			"baseline": 17
+			"lineHeight": 1.25
 		},
 		{
 			"type": "ellipse",
-			"version": 289,
-			"versionNonce": 752226134,
+			"version": 290,
+			"versionNonce": 342995705,
+			"index": "a9",
 			"isDeleted": false,
 			"id": "m6ZfsKWHfzB9snhoN1wJO",
 			"fillStyle": "hachure",
@@ -418,14 +424,15 @@ Sparx EA ^q2H6UAOP
 					"type": "arrow"
 				}
 			],
-			"updated": 1708421583113,
+			"updated": 1715176804199,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 120,
-			"versionNonce": 1054193930,
+			"version": 121,
+			"versionNonce": 1794233623,
+			"index": "aA",
 			"isDeleted": false,
 			"id": "x74kCEaH",
 			"fillStyle": "hachure",
@@ -445,7 +452,7 @@ Sparx EA ^q2H6UAOP
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1708421583113,
+			"updated": 1715176804199,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -456,13 +463,13 @@ Sparx EA ^q2H6UAOP
 			"verticalAlign": "middle",
 			"containerId": "m6ZfsKWHfzB9snhoN1wJO",
 			"originalText": "Physical schema",
-			"lineHeight": 1.25,
-			"baseline": 42
+			"lineHeight": 1.25
 		},
 		{
 			"type": "rectangle",
-			"version": 545,
-			"versionNonce": 222672022,
+			"version": 546,
+			"versionNonce": 1435691993,
+			"index": "aB",
 			"isDeleted": false,
 			"id": "8FC2PiFy9KhsA0aqk9LHM",
 			"fillStyle": "hachure",
@@ -493,14 +500,15 @@ Sparx EA ^q2H6UAOP
 					"type": "arrow"
 				}
 			],
-			"updated": 1708421583113,
+			"updated": 1715176804199,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 502,
-			"versionNonce": 445515722,
+			"version": 503,
+			"versionNonce": 843389495,
+			"index": "aC",
 			"isDeleted": false,
 			"id": "2uh8uT8X",
 			"fillStyle": "solid",
@@ -520,7 +528,7 @@ Sparx EA ^q2H6UAOP
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1708421583113,
+			"updated": 1715176804199,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -531,13 +539,13 @@ Sparx EA ^q2H6UAOP
 			"verticalAlign": "middle",
 			"containerId": "8FC2PiFy9KhsA0aqk9LHM",
 			"originalText": "Schema Composer",
-			"lineHeight": 1.25,
-			"baseline": 42
+			"lineHeight": 1.25
 		},
 		{
 			"type": "rectangle",
-			"version": 283,
-			"versionNonce": 588165590,
+			"version": 284,
+			"versionNonce": 1406798009,
+			"index": "aD",
 			"isDeleted": false,
 			"id": "ApsMgVum4mnTrHpR0fe7w",
 			"fillStyle": "hachure",
@@ -572,14 +580,15 @@ Sparx EA ^q2H6UAOP
 					"type": "arrow"
 				}
 			],
-			"updated": 1708421583113,
+			"updated": 1715176804199,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 254,
-			"versionNonce": 1607368330,
+			"version": 255,
+			"versionNonce": 1966259031,
+			"index": "aE",
 			"isDeleted": false,
 			"id": "Q7P65ICu",
 			"fillStyle": "solid",
@@ -599,7 +608,7 @@ Sparx EA ^q2H6UAOP
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1708421583114,
+			"updated": 1715176804199,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -610,13 +619,13 @@ Sparx EA ^q2H6UAOP
 			"verticalAlign": "middle",
 			"containerId": "ApsMgVum4mnTrHpR0fe7w",
 			"originalText": "Script",
-			"lineHeight": 1.25,
-			"baseline": 17
+			"lineHeight": 1.25
 		},
 		{
 			"type": "ellipse",
-			"version": 256,
-			"versionNonce": 692455190,
+			"version": 257,
+			"versionNonce": 954894745,
+			"index": "aF",
 			"isDeleted": false,
 			"id": "ZEi4Y57mUR7e7x15gjIYi",
 			"fillStyle": "hachure",
@@ -647,14 +656,15 @@ Sparx EA ^q2H6UAOP
 					"type": "arrow"
 				}
 			],
-			"updated": 1708421583114,
+			"updated": 1715176804199,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 214,
-			"versionNonce": 2068979018,
+			"version": 215,
+			"versionNonce": 135215223,
+			"index": "aG",
 			"isDeleted": false,
 			"id": "871MJJ2s",
 			"fillStyle": "hachure",
@@ -674,7 +684,7 @@ Sparx EA ^q2H6UAOP
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1708421583114,
+			"updated": 1715176804199,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -685,13 +695,13 @@ Sparx EA ^q2H6UAOP
 			"verticalAlign": "middle",
 			"containerId": "ZEi4Y57mUR7e7x15gjIYi",
 			"originalText": "XMI",
-			"lineHeight": 1.25,
-			"baseline": 17
+			"lineHeight": 1.25
 		},
 		{
 			"type": "rectangle",
-			"version": 388,
-			"versionNonce": 811643990,
+			"version": 389,
+			"versionNonce": 771223161,
+			"index": "aH",
 			"isDeleted": false,
 			"id": "tEvLH2lIsZxAgiRs25vuh",
 			"fillStyle": "hachure",
@@ -722,14 +732,15 @@ Sparx EA ^q2H6UAOP
 					"type": "arrow"
 				}
 			],
-			"updated": 1708421583114,
+			"updated": 1715176804199,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 355,
-			"versionNonce": 175367178,
+			"version": 356,
+			"versionNonce": 1084166551,
+			"index": "aI",
 			"isDeleted": false,
 			"id": "BAOGZx8B",
 			"fillStyle": "solid",
@@ -749,7 +760,7 @@ Sparx EA ^q2H6UAOP
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1708421583114,
+			"updated": 1715176804199,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -760,13 +771,13 @@ Sparx EA ^q2H6UAOP
 			"verticalAlign": "middle",
 			"containerId": "tEvLH2lIsZxAgiRs25vuh",
 			"originalText": "XMI Export",
-			"lineHeight": 1.25,
-			"baseline": 42
+			"lineHeight": 1.25
 		},
 		{
 			"type": "ellipse",
-			"version": 382,
-			"versionNonce": 1948117386,
+			"version": 383,
+			"versionNonce": 1774565209,
+			"index": "aJ",
 			"isDeleted": false,
 			"id": "XINnM7dFbB5RKhbmMuY2Z",
 			"fillStyle": "hachure",
@@ -797,14 +808,15 @@ Sparx EA ^q2H6UAOP
 					"type": "arrow"
 				}
 			],
-			"updated": 1708421583114,
+			"updated": 1715176804199,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 320,
-			"versionNonce": 1412877334,
+			"version": 321,
+			"versionNonce": 1209452215,
+			"index": "aK",
 			"isDeleted": false,
 			"id": "XlaC5RXM",
 			"fillStyle": "hachure",
@@ -824,7 +836,7 @@ Sparx EA ^q2H6UAOP
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1708421583114,
+			"updated": 1715176804199,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -835,13 +847,13 @@ Sparx EA ^q2H6UAOP
 			"verticalAlign": "middle",
 			"containerId": "XINnM7dFbB5RKhbmMuY2Z",
 			"originalText": "EA Native file",
-			"lineHeight": 1.25,
-			"baseline": 42
+			"lineHeight": 1.25
 		},
 		{
 			"type": "rectangle",
-			"version": 440,
-			"versionNonce": 1216096330,
+			"version": 441,
+			"versionNonce": 2124899385,
+			"index": "aL",
 			"isDeleted": false,
 			"id": "-MzVml7Mg3iV3Y0S1VGDH",
 			"fillStyle": "hachure",
@@ -872,14 +884,15 @@ Sparx EA ^q2H6UAOP
 					"type": "arrow"
 				}
 			],
-			"updated": 1708421583114,
+			"updated": 1715176804199,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 428,
-			"versionNonce": 720427350,
+			"version": 429,
+			"versionNonce": 756733911,
+			"index": "aM",
 			"isDeleted": false,
 			"id": "DcZhSmYr",
 			"fillStyle": "solid",
@@ -899,7 +912,7 @@ Sparx EA ^q2H6UAOP
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1708421583114,
+			"updated": 1715176804199,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -910,13 +923,13 @@ Sparx EA ^q2H6UAOP
 			"verticalAlign": "middle",
 			"containerId": "-MzVml7Mg3iV3Y0S1VGDH",
 			"originalText": "Native Export",
-			"lineHeight": 1.25,
-			"baseline": 42
+			"lineHeight": 1.25
 		},
 		{
 			"type": "rectangle",
-			"version": 174,
-			"versionNonce": 1545899786,
+			"version": 175,
+			"versionNonce": 1753249049,
+			"index": "aN",
 			"isDeleted": false,
 			"id": "O_nuWlWZmlC7yBxnRg3J7",
 			"fillStyle": "hachure",
@@ -947,14 +960,15 @@ Sparx EA ^q2H6UAOP
 					"type": "arrow"
 				}
 			],
-			"updated": 1708421583114,
+			"updated": 1715176804199,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "arrow",
-			"version": 385,
-			"versionNonce": 1010341642,
+			"version": 392,
+			"versionNonce": 938312567,
+			"index": "aO",
 			"isDeleted": false,
 			"id": "B8CAqR2gGOfukT_AskULb",
 			"fillStyle": "hachure",
@@ -976,18 +990,18 @@ Sparx EA ^q2H6UAOP
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1708422118990,
+			"updated": 1715179275579,
 			"link": null,
 			"locked": false,
 			"startBinding": {
 				"elementId": "0YgS8rPHb6UzQJI9hTKFH",
-				"gap": 2.441278976592642,
-				"focus": 0.19744597476643644
+				"focus": 0.19744597476643622,
+				"gap": 2.4231688435969403
 			},
 			"endBinding": {
 				"elementId": "RGfOFuvGs4wjIPOA5YsQB",
-				"gap": 1.1310167388354557,
-				"focus": 0.39019879860071816
+				"focus": 0.3901987986007183,
+				"gap": 1.1279412259309964
 			},
 			"lastCommittedPoint": null,
 			"startArrowhead": null,
@@ -1005,8 +1019,9 @@ Sparx EA ^q2H6UAOP
 		},
 		{
 			"type": "rectangle",
-			"version": 172,
-			"versionNonce": 328342986,
+			"version": 173,
+			"versionNonce": 1522821625,
+			"index": "aP",
 			"isDeleted": false,
 			"id": "DprSTPCJBZULjZ0FLCf7r",
 			"fillStyle": "hachure",
@@ -1041,14 +1056,15 @@ Sparx EA ^q2H6UAOP
 					"type": "arrow"
 				}
 			],
-			"updated": 1708421583114,
+			"updated": 1715176804199,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "ellipse",
-			"version": 387,
-			"versionNonce": 1014954966,
+			"version": 388,
+			"versionNonce": 1904872983,
+			"index": "aQ",
 			"isDeleted": false,
 			"id": "feohh33h036SFRKX5EYCx",
 			"fillStyle": "hachure",
@@ -1087,14 +1103,15 @@ Sparx EA ^q2H6UAOP
 					"type": "arrow"
 				}
 			],
-			"updated": 1708421583114,
+			"updated": 1715176804199,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 348,
-			"versionNonce": 199218314,
+			"version": 349,
+			"versionNonce": 1316405977,
+			"index": "aR",
 			"isDeleted": false,
 			"id": "Kfa73qDV",
 			"fillStyle": "solid",
@@ -1114,7 +1131,7 @@ Sparx EA ^q2H6UAOP
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1708421583114,
+			"updated": 1715176804199,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -1125,13 +1142,13 @@ Sparx EA ^q2H6UAOP
 			"verticalAlign": "middle",
 			"containerId": "feohh33h036SFRKX5EYCx",
 			"originalText": "Profile",
-			"lineHeight": 1.25,
-			"baseline": 17
+			"lineHeight": 1.25
 		},
 		{
 			"type": "arrow",
-			"version": 317,
-			"versionNonce": 698630922,
+			"version": 324,
+			"versionNonce": 119427511,
+			"index": "aS",
 			"isDeleted": false,
 			"id": "MMQwPgoTQT7bfyIFul9GL",
 			"fillStyle": "hachure",
@@ -1153,18 +1170,18 @@ Sparx EA ^q2H6UAOP
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1708422118991,
+			"updated": 1715179275580,
 			"link": null,
 			"locked": false,
 			"startBinding": {
 				"elementId": "feohh33h036SFRKX5EYCx",
-				"gap": 4.178302985116957,
-				"focus": 0.11629517055206129
+				"focus": 0.11629517055206184,
+				"gap": 4.169575732367164
 			},
 			"endBinding": {
 				"elementId": "RGfOFuvGs4wjIPOA5YsQB",
-				"gap": 3.9198304414182417,
-				"focus": -0.622303383008559
+				"focus": -0.6223033830085589,
+				"gap": 3.9029688648739125
 			},
 			"lastCommittedPoint": null,
 			"startArrowhead": null,
@@ -1182,8 +1199,9 @@ Sparx EA ^q2H6UAOP
 		},
 		{
 			"type": "arrow",
-			"version": 70,
-			"versionNonce": 113816394,
+			"version": 73,
+			"versionNonce": 983601143,
+			"index": "aT",
 			"isDeleted": false,
 			"id": "Mc8djDijBPA22bGjAlo6W",
 			"fillStyle": "hachure",
@@ -1205,17 +1223,17 @@ Sparx EA ^q2H6UAOP
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1708421583114,
+			"updated": 1715179275580,
 			"link": null,
 			"locked": false,
 			"startBinding": {
 				"elementId": "O_nuWlWZmlC7yBxnRg3J7",
-				"focus": 0.02907068027405672,
-				"gap": 2.1231079101558805
+				"focus": 0.029070688144074777,
+				"gap": 2.123107910155909
 			},
 			"endBinding": {
 				"elementId": "dY6KAI8iIQHKI0qvQQ445",
-				"focus": 0.5499083709505668,
+				"focus": 0.549908370950567,
 				"gap": 1
 			},
 			"lastCommittedPoint": null,
@@ -1234,8 +1252,9 @@ Sparx EA ^q2H6UAOP
 		},
 		{
 			"type": "arrow",
-			"version": 51,
-			"versionNonce": 767983190,
+			"version": 54,
+			"versionNonce": 551042615,
+			"index": "aU",
 			"isDeleted": false,
 			"id": "U98caIKz0lx7xAJ2pCtH2",
 			"fillStyle": "hachure",
@@ -1257,7 +1276,7 @@ Sparx EA ^q2H6UAOP
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1708421583114,
+			"updated": 1715179275580,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -1286,8 +1305,9 @@ Sparx EA ^q2H6UAOP
 		},
 		{
 			"type": "ellipse",
-			"version": 1112,
-			"versionNonce": 765926602,
+			"version": 1114,
+			"versionNonce": 1419743575,
+			"index": "aV",
 			"isDeleted": false,
 			"id": "u_mNT2aC3VI5qdDx-U6__",
 			"fillStyle": "hachure",
@@ -1296,7 +1316,7 @@ Sparx EA ^q2H6UAOP
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 467.6647417714374,
+			"x": 467.6647417714373,
 			"y": -556.8753641325306,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "#eaddd7",
@@ -1314,14 +1334,15 @@ Sparx EA ^q2H6UAOP
 					"id": "cHT2jRft"
 				}
 			],
-			"updated": 1708422118991,
+			"updated": 1715176804300,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 1088,
-			"versionNonce": 340804502,
+			"version": 1089,
+			"versionNonce": 981864823,
+			"index": "aW",
 			"isDeleted": false,
 			"id": "cHT2jRft",
 			"fillStyle": "hachure",
@@ -1341,7 +1362,7 @@ Sparx EA ^q2H6UAOP
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1708421583114,
+			"updated": 1715176804199,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -1352,13 +1373,13 @@ Sparx EA ^q2H6UAOP
 			"verticalAlign": "middle",
 			"containerId": "u_mNT2aC3VI5qdDx-U6__",
 			"originalText": "JSON Schema",
-			"lineHeight": 1.25,
-			"baseline": 42
+			"lineHeight": 1.25
 		},
 		{
 			"type": "ellipse",
-			"version": 1072,
-			"versionNonce": 1249372362,
+			"version": 1073,
+			"versionNonce": 632759673,
+			"index": "aX",
 			"isDeleted": false,
 			"id": "_w495XbTWZj34wePIRN6R",
 			"fillStyle": "hachure",
@@ -1385,14 +1406,15 @@ Sparx EA ^q2H6UAOP
 					"id": "5z1b7yjW"
 				}
 			],
-			"updated": 1708421583114,
+			"updated": 1715176804199,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 1033,
-			"versionNonce": 669999318,
+			"version": 1034,
+			"versionNonce": 282249879,
+			"index": "aY",
 			"isDeleted": false,
 			"id": "5z1b7yjW",
 			"fillStyle": "hachure",
@@ -1412,7 +1434,7 @@ Sparx EA ^q2H6UAOP
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1708421583115,
+			"updated": 1715176804199,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -1423,13 +1445,13 @@ Sparx EA ^q2H6UAOP
 			"verticalAlign": "middle",
 			"containerId": "_w495XbTWZj34wePIRN6R",
 			"originalText": "HTML",
-			"lineHeight": 1.25,
-			"baseline": 17
+			"lineHeight": 1.25
 		},
 		{
 			"type": "ellipse",
-			"version": 1068,
-			"versionNonce": 433340298,
+			"version": 1069,
+			"versionNonce": 847646297,
+			"index": "aZ",
 			"isDeleted": false,
 			"id": "ynIw81cnJLKR4HB41uR4L",
 			"fillStyle": "hachure",
@@ -1456,14 +1478,15 @@ Sparx EA ^q2H6UAOP
 					"id": "xGvhlry0"
 				}
 			],
-			"updated": 1708421583115,
+			"updated": 1715176804199,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 1088,
-			"versionNonce": 1278793238,
+			"version": 1089,
+			"versionNonce": 728457143,
+			"index": "aa",
 			"isDeleted": false,
 			"id": "xGvhlry0",
 			"fillStyle": "hachure",
@@ -1483,7 +1506,7 @@ Sparx EA ^q2H6UAOP
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1708421583115,
+			"updated": 1715176804199,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -1494,13 +1517,13 @@ Sparx EA ^q2H6UAOP
 			"verticalAlign": "middle",
 			"containerId": "ynIw81cnJLKR4HB41uR4L",
 			"originalText": "CIM RDFS",
-			"lineHeight": 1.25,
-			"baseline": 42
+			"lineHeight": 1.25
 		},
 		{
 			"type": "rectangle",
-			"version": 192,
-			"versionNonce": 1358413386,
+			"version": 193,
+			"versionNonce": 457497401,
+			"index": "ab",
 			"isDeleted": false,
 			"id": "B1PDBwFj6jRELBj2aIJoN",
 			"fillStyle": "hachure",
@@ -1527,14 +1550,15 @@ Sparx EA ^q2H6UAOP
 					"type": "arrow"
 				}
 			],
-			"updated": 1708421583115,
+			"updated": 1715176804199,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "ellipse",
-			"version": 428,
-			"versionNonce": 706847574,
+			"version": 429,
+			"versionNonce": 1282691287,
+			"index": "ac",
 			"isDeleted": false,
 			"id": "8KiZq_HfpGNsG_QCwRFZK",
 			"fillStyle": "hachure",
@@ -1565,14 +1589,15 @@ Sparx EA ^q2H6UAOP
 					"type": "arrow"
 				}
 			],
-			"updated": 1708421583115,
+			"updated": 1715176804199,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 264,
-			"versionNonce": 1019045130,
+			"version": 265,
+			"versionNonce": 542575641,
+			"index": "ad",
 			"isDeleted": false,
 			"id": "32oW1Ps6",
 			"fillStyle": "hachure",
@@ -1592,7 +1617,7 @@ Sparx EA ^q2H6UAOP
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1708421583115,
+			"updated": 1715176804199,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -1603,13 +1628,13 @@ Sparx EA ^q2H6UAOP
 			"verticalAlign": "middle",
 			"containerId": "8KiZq_HfpGNsG_QCwRFZK",
 			"originalText": "Physical schema",
-			"lineHeight": 1.25,
-			"baseline": 42
+			"lineHeight": 1.25
 		},
 		{
 			"type": "arrow",
-			"version": 409,
-			"versionNonce": 335133514,
+			"version": 414,
+			"versionNonce": 1059675255,
+			"index": "ae",
 			"isDeleted": false,
 			"id": "GZ7bBfsKXGoauEgxcccUW",
 			"fillStyle": "hachure",
@@ -1631,13 +1656,13 @@ Sparx EA ^q2H6UAOP
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1708422118990,
+			"updated": 1715179275580,
 			"link": null,
 			"locked": false,
 			"startBinding": {
 				"elementId": "8FC2PiFy9KhsA0aqk9LHM",
-				"gap": 1.5239068153944686,
-				"focus": 0.14476468670180084
+				"focus": 0.14476468670180076,
+				"gap": 1.5239068153944118
 			},
 			"endBinding": {
 				"elementId": "DprSTPCJBZULjZ0FLCf7r",
@@ -1664,8 +1689,9 @@ Sparx EA ^q2H6UAOP
 		},
 		{
 			"type": "arrow",
-			"version": 638,
-			"versionNonce": 1111137674,
+			"version": 645,
+			"versionNonce": 301460151,
+			"index": "af",
 			"isDeleted": false,
 			"id": "fikYKTfWnCacZKwlbA_jP",
 			"fillStyle": "hachure",
@@ -1687,18 +1713,18 @@ Sparx EA ^q2H6UAOP
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1708422118991,
+			"updated": 1715179275580,
 			"link": null,
 			"locked": false,
 			"startBinding": {
 				"elementId": "-MzVml7Mg3iV3Y0S1VGDH",
-				"gap": 2.084212525882151,
-				"focus": 0.008025146270907823
+				"focus": 0.00802514627090805,
+				"gap": 2.0842125258820943
 			},
 			"endBinding": {
 				"elementId": "XINnM7dFbB5RKhbmMuY2Z",
-				"gap": 4.482402085075336,
-				"focus": -0.07876576577198795
+				"focus": -0.07876576577198817,
+				"gap": 4.474203828375423
 			},
 			"lastCommittedPoint": null,
 			"startArrowhead": null,
@@ -1716,8 +1742,9 @@ Sparx EA ^q2H6UAOP
 		},
 		{
 			"type": "arrow",
-			"version": 459,
-			"versionNonce": 954544778,
+			"version": 466,
+			"versionNonce": 1286072567,
+			"index": "ag",
 			"isDeleted": false,
 			"id": "tGRlkstgXwAs9mkCbs_u7",
 			"fillStyle": "hachure",
@@ -1739,18 +1766,18 @@ Sparx EA ^q2H6UAOP
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1708422118990,
+			"updated": 1715179275580,
 			"link": null,
 			"locked": false,
 			"startBinding": {
 				"elementId": "tEvLH2lIsZxAgiRs25vuh",
-				"gap": 1.5738552511186867,
-				"focus": -0.06353890345899743
+				"focus": -0.06353890345899756,
+				"gap": 1.57385525111863
 			},
 			"endBinding": {
 				"elementId": "ZEi4Y57mUR7e7x15gjIYi",
-				"gap": 1.7740484712355382,
-				"focus": -0.03130746144511787
+				"focus": -0.03130746144511772,
+				"gap": 1.773422050131245
 			},
 			"lastCommittedPoint": null,
 			"startArrowhead": null,
@@ -1768,8 +1795,9 @@ Sparx EA ^q2H6UAOP
 		},
 		{
 			"type": "rectangle",
-			"version": 284,
-			"versionNonce": 817572490,
+			"version": 285,
+			"versionNonce": 1423153625,
+			"index": "ah",
 			"isDeleted": false,
 			"id": "dPvlR3M8DT82ucjvck6PO",
 			"fillStyle": "hachure",
@@ -1800,14 +1828,15 @@ Sparx EA ^q2H6UAOP
 					"type": "arrow"
 				}
 			],
-			"updated": 1708421583115,
+			"updated": 1715176804199,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "rectangle",
-			"version": 162,
-			"versionNonce": 734665494,
+			"version": 163,
+			"versionNonce": 1194216503,
+			"index": "ai",
 			"isDeleted": false,
 			"id": "N5mDkMVrkR_F2i7VtOO7j",
 			"fillStyle": "hachure",
@@ -1834,14 +1863,15 @@ Sparx EA ^q2H6UAOP
 					"type": "arrow"
 				}
 			],
-			"updated": 1708421583115,
+			"updated": 1715176804199,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "arrow",
-			"version": 263,
-			"versionNonce": 1640581450,
+			"version": 266,
+			"versionNonce": 429741879,
+			"index": "aj",
 			"isDeleted": false,
 			"id": "x_7ifApWJj1_h-StA5vAs",
 			"fillStyle": "hachure",
@@ -1863,18 +1893,18 @@ Sparx EA ^q2H6UAOP
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1708421583115,
+			"updated": 1715179275580,
 			"link": null,
 			"locked": false,
 			"startBinding": {
 				"elementId": "dPvlR3M8DT82ucjvck6PO",
-				"gap": 1.0247370521634025,
-				"focus": 0.1509377691227006
+				"focus": 0.15089677069401905,
+				"gap": 1.0247370521634025
 			},
 			"endBinding": {
 				"elementId": "B1PDBwFj6jRELBj2aIJoN",
-				"gap": 1.6498354411745026,
-				"focus": -0.0921528598610451
+				"focus": -0.0921528598610451,
+				"gap": 1.6498354411745026
 			},
 			"lastCommittedPoint": null,
 			"startArrowhead": null,
@@ -1892,8 +1922,9 @@ Sparx EA ^q2H6UAOP
 		},
 		{
 			"type": "arrow",
-			"version": 63,
-			"versionNonce": 1900169302,
+			"version": 66,
+			"versionNonce": 1513895287,
+			"index": "ak",
 			"isDeleted": false,
 			"id": "AlikbZ3KuLA4ZkgE7aDcl",
 			"fillStyle": "hachure",
@@ -1915,7 +1946,7 @@ Sparx EA ^q2H6UAOP
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1708421583115,
+			"updated": 1715179275581,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -1944,8 +1975,9 @@ Sparx EA ^q2H6UAOP
 		},
 		{
 			"type": "arrow",
-			"version": 272,
-			"versionNonce": 1963389130,
+			"version": 277,
+			"versionNonce": 1726514103,
+			"index": "al",
 			"isDeleted": false,
 			"id": "iLqcfpwU_1DzaB8YBi3XX",
 			"fillStyle": "hachure",
@@ -1967,18 +1999,18 @@ Sparx EA ^q2H6UAOP
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1708422118990,
+			"updated": 1715179275581,
 			"link": null,
 			"locked": false,
 			"startBinding": {
 				"elementId": "DprSTPCJBZULjZ0FLCf7r",
-				"gap": 1,
-				"focus": -0.21080230143895148
+				"focus": -0.21080230143895148,
+				"gap": 1
 			},
 			"endBinding": {
 				"elementId": "ApsMgVum4mnTrHpR0fe7w",
-				"gap": 2.889257402927342,
-				"focus": -0.061056969704888546
+				"focus": -0.06105696970488853,
+				"gap": 2.889257402927342
 			},
 			"lastCommittedPoint": null,
 			"startArrowhead": null,
@@ -1996,8 +2028,9 @@ Sparx EA ^q2H6UAOP
 		},
 		{
 			"type": "rectangle",
-			"version": 140,
-			"versionNonce": 1237503382,
+			"version": 141,
+			"versionNonce": 1439951479,
+			"index": "am",
 			"isDeleted": false,
 			"id": "fX0vyYc20ZL9_kTdeXnae",
 			"fillStyle": "hachure",
@@ -2019,14 +2052,15 @@ Sparx EA ^q2H6UAOP
 				"type": 3
 			},
 			"boundElements": [],
-			"updated": 1708421583115,
+			"updated": 1715176804199,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "arrow",
-			"version": 165,
-			"versionNonce": 759318410,
+			"version": 170,
+			"versionNonce": 1325810167,
+			"index": "an",
 			"isDeleted": false,
 			"id": "Gv2-x8gLVjf2myXznlEGJ",
 			"fillStyle": "hachure",
@@ -2048,13 +2082,13 @@ Sparx EA ^q2H6UAOP
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1708422118990,
+			"updated": 1715179275581,
 			"link": null,
 			"locked": false,
 			"startBinding": {
 				"elementId": "ApsMgVum4mnTrHpR0fe7w",
-				"gap": 2.229861607524299,
-				"focus": -0.04288947750270736
+				"focus": -0.04288947750270736,
+				"gap": 2.229861607524299
 			},
 			"endBinding": {
 				"elementId": "dPvlR3M8DT82ucjvck6PO",
@@ -2081,8 +2115,9 @@ Sparx EA ^q2H6UAOP
 		},
 		{
 			"type": "arrow",
-			"version": 213,
-			"versionNonce": 1894380106,
+			"version": 220,
+			"versionNonce": 419000375,
+			"index": "ao",
 			"isDeleted": false,
 			"id": "k2l1c-FJpBX418fTjyx0q",
 			"fillStyle": "hachure",
@@ -2104,18 +2139,18 @@ Sparx EA ^q2H6UAOP
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1708422118991,
+			"updated": 1715179275581,
 			"link": null,
 			"locked": false,
 			"startBinding": {
 				"elementId": "8KiZq_HfpGNsG_QCwRFZK",
-				"gap": 1.8913582123835653,
-				"focus": -0.5355975495371703
+				"focus": -0.5355975495371702,
+				"gap": 1.8801679438333139
 			},
 			"endBinding": {
 				"elementId": "feohh33h036SFRKX5EYCx",
-				"gap": 1.619314197661751,
-				"focus": 0.3326762421775745
+				"focus": 0.3326762421775745,
+				"gap": 1.5680632673635841
 			},
 			"lastCommittedPoint": null,
 			"startArrowhead": null,
@@ -2133,8 +2168,9 @@ Sparx EA ^q2H6UAOP
 		},
 		{
 			"type": "arrow",
-			"version": 184,
-			"versionNonce": 481127946,
+			"version": 191,
+			"versionNonce": 36048503,
+			"index": "ap",
 			"isDeleted": false,
 			"id": "vAvz1OL50IkzbuaBNre6d",
 			"fillStyle": "hachure",
@@ -2156,18 +2192,18 @@ Sparx EA ^q2H6UAOP
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1708422118991,
+			"updated": 1715179275581,
 			"link": null,
 			"locked": false,
 			"startBinding": {
 				"elementId": "m6ZfsKWHfzB9snhoN1wJO",
-				"gap": 1.8766069859404269,
-				"focus": 0.02774611124925081
+				"focus": 0.027746111249251235,
+				"gap": 1.8764818413791176
 			},
 			"endBinding": {
 				"elementId": "feohh33h036SFRKX5EYCx",
-				"gap": 4.899012343419258,
-				"focus": -0.12560549989922978
+				"focus": -0.12560549989922962,
+				"gap": 4.875535835971959
 			},
 			"lastCommittedPoint": null,
 			"startArrowhead": null,
@@ -2185,8 +2221,9 @@ Sparx EA ^q2H6UAOP
 		},
 		{
 			"type": "text",
-			"version": 144,
-			"versionNonce": 2123093706,
+			"version": 145,
+			"versionNonce": 1842804919,
+			"index": "aq",
 			"isDeleted": false,
 			"id": "q2H6UAOP",
 			"fillStyle": "hachure",
@@ -2206,7 +2243,7 @@ Sparx EA ^q2H6UAOP
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1708421940297,
+			"updated": 1715176804199,
 			"link": null,
 			"locked": false,
 			"fontSize": 28,
@@ -2217,8 +2254,7 @@ Sparx EA ^q2H6UAOP
 			"verticalAlign": "top",
 			"containerId": null,
 			"originalText": "Sparx EA",
-			"lineHeight": 1.25,
-			"baseline": 25
+			"lineHeight": 1.25
 		}
 	],
 	"appState": {
@@ -2236,10 +2272,10 @@ Sparx EA ^q2H6UAOP
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "triangle",
-		"scrollX": 819.1328550598269,
-		"scrollY": 207.0676949623769,
+		"scrollX": 897.1363442362591,
+		"scrollY": 770.3282396333296,
 		"zoom": {
-			"value": 0.8
+			"value": 0.9
 		},
 		"currentItemRoundness": "round",
 		"gridSize": null,
@@ -2254,7 +2290,8 @@ Sparx EA ^q2H6UAOP
 			"clip": true,
 			"name": true,
 			"outline": true
-		}
+		},
+		"objectsSnapModeEnabled": false
 	},
 	"files": {}
 }

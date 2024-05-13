@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "ac093fa8f7e57b08",
+        "id": "2bcc7ae00657d589",
         "type": "tabs",
         "children": [
           {
-            "id": "26c05c2ef4d32961",
+            "id": "f0878993aded49fa",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -148,20 +148,22 @@
       "marp-slides:Show Slide Preview": false
     }
   },
-  "active": "26c05c2ef4d32961",
+  "active": "f0878993aded49fa",
   "lastOpenFiles": [
+    "cimug2024/Attachments/index 2024-05-12 15.47.34.excalidraw.md",
+    "cimug2024/index.md",
+    "cimug2024/Attachments/index 2024-05-12 19.55.05.excalidraw.md",
+    "cimug2024/Attachments/index 2024-05-12 19.55.05.excalidraw.dark.svg",
+    "cimug2024/Attachments/index 2024-05-12 20.13.34.excalidraw.md",
     "cimug2024/index.from_sparkxea_to_linkml.md",
     "cimug2024/Attachments/linkml_resized.png",
     "cimug2024/Attachments/linkml_full.png",
     "cimug2024/Attachments/index 2024-05-13 10.34.00.excalidraw.md",
     "cimug2024/Attachments/index 2024-05-13 10.34.00.excalidraw.light.svg",
     "cimug2024/Attachments/index 2024-05-13 10.34.00.excalidraw.dark.svg",
-    "cimug2024/Attachments/index 2024-05-12 20.13.34.excalidraw.md",
     "cimug2024/Attachments/index 2024-05-12 20.13.34.excalidraw.light.svg",
     "cimug2024/Attachments/index 2024-05-12 20.13.34.excalidraw.dark.svg",
-    "cimug2024/Attachments/index 2024-05-12 19.55.05.excalidraw.md",
     "cimug2024/Attachments/index 2024-05-12 19.55.05.excalidraw.light.svg",
-    "cimug2024/Attachments/index 2024-05-12 19.55.05.excalidraw.dark.svg",
     "cimug2024/Attachments/index 2024-05-12 19.45.10.excalidraw.md",
     "cimug2024/Attachments/index 2024-05-12 19.45.10.excalidraw.light.svg",
     "cimug2024/Attachments/index 2024-05-12 19.45.10.excalidraw.dark.svg",
@@ -170,7 +172,6 @@
     "cimug2024/Attachments/index 2024-05-12 16.42.35.excalidraw.md",
     "cimug2024/Attachments/index 2024-05-12 16.14.43.excalidraw.md",
     "cimug2024/Attachments/index 2024-05-12 16.06.21.excalidraw.md",
-    "cimug2024/Attachments/index 2024-05-12 15.47.34.excalidraw.md",
     "cimug2024/Attachments/index 2024-05-12 14.25.27.excalidraw.md",
     "cimug2024/Attachments/index 2024-05-12 13.54.35.excalidraw.md",
     "cimug2024.bak/Attachments/index 2024-05-08 21.32.24.excalidraw.md",
@@ -191,9 +192,7 @@
     "cimug2024.bak/Attachments/Sparx EA 1.excalidraw.html",
     "cimug2024.bak/Attachments/Sparx EA 0.excalidraw.md",
     "cimug2024.bak/Attachments/Sparx EA 0.excalidraw.html",
-    "cimug2024.bak/Attachments/Sparx EA - 2.bak.excalidraw.md",
     "cimug2024.bak/Attachments/Sparx EA - 2.bak.excalidraw.html",
-    "cimug2024.bak/Attachments/Semantic Web flowchart.excalidraw.md",
     "cimug2024.bak/Attachments/Semantic Web flowchart.excalidraw.html",
     "cimug2024.bak/Attachments/Semantic Web flowchart.bak.excalidraw.html"
   ]

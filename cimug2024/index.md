@@ -228,7 +228,7 @@ LinkML also offers a variety of generators you can use to generate code, documen
 
 ---
 
-This can save teams **a lot** of work.
+This could save teams **a lot** of work.
 
 ---
 
@@ -321,7 +321,7 @@ The main enabler for Linked Data is the use of **URI**s for global identificatio
 
 URIs...
 * can encode ownership in the domain;
-* can namespace identifiers.
+* can provide namespacing for identifiers.
 
 ---
 <!-- _class: with-bullets -->
@@ -347,9 +347,9 @@ LinkML supports annotating schema elements with names from reference models...
 ---
 <!-- _class: with-bullets -->
 
-Note in particular how easy it is to use multiple reference models.
+It's very easy to use multiple reference models.
 * This provides immense flexibility and ease of standardization.
-* It's usually very difficult to do.
+* Usually this is very difficult to do.
 
 ---
 
@@ -358,7 +358,7 @@ Let's take a look again at the LinkML schema earlier...
 
 ---
 
-But before going there, I need to mention compact URIs (CURIEs).
+But before going there, I need to explain compact URIs (CURIEs).
 
 ---
 
@@ -394,8 +394,8 @@ Using fields like  `class_uri` and `slot_uri` we can standardize schema elements
 
 ---
 
-LinkML also supports other URI mappings...
-* including expressing relations to business glossary terms using SKOS.
+LinkML also supports other kinds of URI mappings.
+* Most notably expressing narrower, broader or exact matches to terms using SKOS.
 
 ---
 
@@ -411,9 +411,9 @@ This means every data element in the CIM can be uniquely referenced by its URI.
 
 ---
 
-We saw a real life example earlier: 
-- `https://cim.ucaiug.io/ns#PowerSystemResource`...
-* or `cim:PowerSystemResource`.
+We saw a real life example earlier for the power system resource class:
+* URI: `https://cim.ucaiug.io/ns#PowerSystemResource`;
+* CURIE: `cim:PowerSystemResource`.
 
 ---
 
@@ -426,12 +426,12 @@ Mapping names to reference models is great...
 
 ---
 
-Reference models often have more to offer than just standardized names
+Reference models often have more to offer than just standardized names.
 
 ---
 
 The CIM describes attributes, relations, etc.
-* ENTSO-E's CGMES profiles provide use-case specific constraints.
+* CGMES profiles provide use-case specific constraints.
 
 ---
 
@@ -448,11 +448,13 @@ Well, we generate those schemas!
 
 ---
 
-I've written a script that has generated a LinkML schema for each CGMES profile.
+I've written a script that has generated a LinkML schema for each CGMES profile
 * It is based on the RDFS 2020 version.
 
 ---
 <!-- _class: with-bullets -->
+
+Resources:
 
 - The [script](https://github.com/alliander-opensource/cimrdfs2linkml) that generates the LinkML schemas.
 - The [LinkML schemas](https://github.com/alliander-opensource/cgmes-profiles).
@@ -465,14 +467,16 @@ I've written a script that has generated a LinkML schema for each CGMES profile.
 ---
 
 Similarly, I've generated LinkML schemas for the entire CIM.
-* It is based on the Sparx EA project.
+* It is based on the official Sparx EA project.
 
 ---
 <!-- _class: with-bullets -->
 
+Resources:
+
 - The [script](https://github.com/bartkl/cim-to-linkml) that generates the LinkML schemas.
 - The [LinkML schemas](https://github.com/alliander-opensource/cim-linkml).
-* The documentation hasn't been generated yet.
+- The documentation hasn't been generated yet.
 
 ---
 
@@ -491,7 +495,7 @@ Given a CIM or CGMES LinkML schema, you pass in the classes you'd like to use, a
 
 ---
 
-![](Attachments/index%202024-05-13%2010.34.00.excalidraw)
+![bg width: 30%](Attachments/index%202024-05-13%2010.34.00.excalidraw.light.svg)
 
 ---
 

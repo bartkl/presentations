@@ -491,7 +491,6 @@ Can we make this even more cool?
 ## Road Ahead
 
 ---
-<!-- _class: with-bullets -->
 
 I want to improve interoperability with existing CIM tools.
 * Also, we are investigating how to improve the LinkML ecosystem.

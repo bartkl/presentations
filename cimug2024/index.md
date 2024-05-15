@@ -37,8 +37,8 @@ style: |-
   }
   ul > li,
   ol > li {
-    /* color: rgb(87, 82, 121); */
-    color: rgb(31, 35, 40);
+    color: rgb(87, 82, 121);
+    /* color: rgb(31, 35, 40); */
     margin-top: 1.5rem;
   }
 ---

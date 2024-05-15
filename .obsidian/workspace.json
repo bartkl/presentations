@@ -129,7 +129,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -149,6 +150,7 @@
   },
   "active": "f0878993aded49fa",
   "lastOpenFiles": [
+    "cimug2024/index.md~",
     "cimug2024/Attachments/index 2024-05-12 15.47.34.excalidraw.md",
     "cimug2024/index.md",
     "cimug2024/Attachments/index 2024-05-12 19.55.05.excalidraw.md",

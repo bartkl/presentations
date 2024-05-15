@@ -199,10 +199,6 @@ Collaboration and versioning becomes straightforward using a VCS like Git.
 
 ---
 
-![bg height: 20%](Attachments/index%202024-05-12%2019.23.25.excalidraw.light.svg)
-
----
-
 ### Code and Documentation Generators
 
 ---

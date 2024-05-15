@@ -528,15 +528,16 @@ But to make it even more cool...
 
 ---
 
-LinkML is being used by Netbeheer Nederland, a cooperative initiative between DSOs in the Netherlands.
+Currently LinkML is being used by Netbeheer Nederland, a cooperative initiative between DSOs in the Netherlands.
 * Is it of interest to others?
 
 ---
 
 What uses can the community come up with for LinkML?
-    * Input is welcome!
+* Input is welcome!
     
 ---
+<!-- _class: with-bullets -->
 
 I want to improve interoperability with existing CIM tools.
 * Generating LinkML from EA.

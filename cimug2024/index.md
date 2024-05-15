@@ -121,7 +121,7 @@ If teams are going to be responsible for the information modeling...
 ---
 
 Due to time constraints I will jump straight to LinkML.
-* I'm happy to answer questions about challenges I encountered with Sparx EA and RDF afterwards.
+* I'm happy to answer questions about challenges we encountered with Sparx EA and RDF afterwards.
 
 ---
 

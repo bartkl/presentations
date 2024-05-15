@@ -172,7 +172,6 @@ classes:
 ```
 
 ---
-<!-- _class: with-bullets -->
 
 Note how we are not locked into having to use a single application for modeling.
 * Teams can use their preferred tools, most notably their IDEs.
@@ -339,7 +338,6 @@ LinkML supports annotating schema elements with names from reference models...
 
 It's very easy to use multiple reference models.
 * This provides immense flexibility and ease of standardization.
-* Usually this is difficult or even impossible to do.
 * It's no problem if the models are expressed in different modeling languages.
 
 ---
@@ -481,7 +479,7 @@ It also enables flattening class hierarchies, skipping optional fields, and more
 
 ---
 
-Imagine how difficult much of the above would be using Sparx EA.
+Imagine how difficult some of this would be using Sparx EA.
 * LinkML just really lends itself for data modeling in a decentralized world.
 
 ---
@@ -495,7 +493,7 @@ Can we make this even more cool?
 ---
 <!-- _class: with-bullets -->
 
-I want to improve interoperability with existing CIM tools:
+I want to improve interoperability with existing CIM tools.
 * Also, we are investigating how to improve the LinkML ecosystem.
 
 ---

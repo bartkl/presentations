@@ -535,6 +535,7 @@ I want to improve interoperability with existing CIM tools.
 * Interoperating with CIM Tool.
 
 ---
+<!-- _class: with-bullets -->
 
 Also, we are investigating how to improve the LinkML ecosystem.
 * A GUI for Ritger's LinkML profiler;

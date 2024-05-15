@@ -95,6 +95,7 @@ Managing data we have no or little control over is challenging.
 ---
 
 How can we deal with this?
+* We need to have a scalable way to produce data in a standardized manner.
 
 ---
 
@@ -118,6 +119,12 @@ If teams are going to be responsible for the information modeling...
 ## Modeling Data Products with LinkML
 
 ---
+
+Due to time constraints I will jump straight to LinkML.
+* I'm happy to answer questions about challenges I encountered with Sparx EA and RDF afterwards.
+
+---
+
 ![](Attachments/linkml_resized.png)
 
 LinkML is a data modeling language developed in the Bio Sciences department at Berkeley Lab.
@@ -178,7 +185,6 @@ Note how we are not locked into having to use a single application for modeling.
 ---
 
 ### Maintaining and Organizing Models
-<!-- TODO: More images? Summary? -->
 
 ---
 
@@ -349,7 +355,8 @@ LinkML supports annotating schema elements with names from reference models...
 
 It's very easy to use multiple reference models.
 * This provides immense flexibility and ease of standardization.
-* Usually this is very difficult to do.
+* Usually this is difficult or even impossible to do.
+* It's no problem if the models are expressed in different modeling languages.
 
 ---
 
@@ -448,7 +455,7 @@ Well, we generate those schemas!
 
 ---
 
-I've written a script that has generated a LinkML schema for each CGMES profile
+I've written a script that has generated a LinkML schema for each CGMES profile.
 * It is based on the RDFS 2020 version.
 
 ---
@@ -485,7 +492,7 @@ Resources:
 ---
 <!-- _class: with-bullets -->
 
-Ritger Teunissen has developed a MVP [profiler](https://github.com/ritger-alliander/gen-linkml-profile) for LinkML schemas.
+Ritger Teunissen has developed a [profiler](https://github.com/ritger-alliander/gen-linkml-profile) for LinkML schemas.
 * Currently command-line only...
 * but building a simple GUI is anticipated.
 
@@ -502,12 +509,41 @@ Given a CIM or CGMES LinkML schema, you pass in the classes you'd like to use, a
 It also enables flattening class hierarchies, skipping optional fields, and more.
 
 ---
+<!-- _class: align-center -->
+
+\*\*\*
+
+---
+
+Imagine how difficult much of the above would be using Sparx EA.
+* LinkML just really lends itself for data modeling in a decentralized world.
+
+---
+
+But to make it even more cool...
+
+---
 
 ## Road Ahead
 
 ---
-<!-- _class: with-bullets -->
 
-- Generating LinkML from EA
+LinkML is being used by Netbeheer Nederland, a cooperative initiative between DSOs in the Netherlands.
+* Is it of interest to others?
+
+---
+
+What uses can the community come up with for LinkML?
+    * Input is welcome!
+    
+---
+
+I want to improve interoperability with existing CIM tools.
+* Generating LinkML from EA.
 * Generating EA UML from LinkML
-* Can we formalize the CIM URIs and solve the challenges with them?
+* Interoperating with CIM Tool.
+
+---
+
+Are there any questions?
+* Thank you for listening!

@@ -180,7 +180,7 @@ classes:
 <!-- _class: with-bullets -->
 
 Note how we are not locked into having to use a single application for modeling.
-* Teams can use their prefered tools, most notably their IDEs.
+* Teams can use their preferred tools, most notably their IDEs.
 
 ---
 
@@ -200,15 +200,11 @@ LinkML schemas either become part of the repository like all other code...
 
 Collaboration and versioning becomes straightforward using a VCS like Git.
 * Again: it's no different from the usual way of working.
+* Even external collaborators can contribute.
 
 ---
 
 ![bg height: 20%](Attachments/index%202024-05-12%2019.23.25.excalidraw.light.svg)
-
----
-
-Even external contributors can make changes...
-* and request merging those back in the upstream model.
 
 ---
 
@@ -235,6 +231,7 @@ LinkML also offers a variety of generators you can use to generate code, documen
 ---
 
 This could save teams **a lot** of work.
+* Especially since maintaining several physical models is a lot of duplicate work.
 
 ---
 
@@ -248,10 +245,6 @@ Since LinkML models are simple YAML files, it's very easy to write scripts and p
 ---
 
 ![](Attachments/index%202024-05-12%2016.14.43.excalidraw.light.svg)
-
----
-
-Governance rules can also be automated.
 
 ---
 <!-- _class: align-center -->
@@ -403,24 +396,6 @@ Using fields like  `class_uri` and `slot_uri` we can standardize schema elements
 
 LinkML also supports other kinds of URI mappings.
 * Most notably expressing narrower, broader or exact matches to terms using SKOS.
-
----
-
-#### Referencing CIM
-
----
-
-Within the CIM community URIs have been crafted for the CIM.
-
----
-
-This means every data element in the CIM can be uniquely referenced by its URI.
-
----
-
-We saw a real life example earlier for the power system resource class:
-* URI: `https://cim.ucaiug.io/ns#PowerSystemResource`;
-* CURIE: `cim:PowerSystemResource`.
 
 ---
 

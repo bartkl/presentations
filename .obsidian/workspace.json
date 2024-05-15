@@ -18,6 +18,16 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "b01e874ce82fef64",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "cimug2024/Attachments/index 2024-05-12 14.25.27.excalidraw.md"
+              }
+            }
           }
         ]
       }
@@ -134,7 +144,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -150,9 +161,11 @@
   },
   "active": "f0878993aded49fa",
   "lastOpenFiles": [
+    "cimug2024/Attachments/index 2024-05-12 14.25.27.excalidraw.md",
+    "cimug2024/index.md",
+    "cimug2024/Attachments/index 2024-05-12 13.54.35.excalidraw.md",
     "cimug2024/index.md~",
     "cimug2024/Attachments/index 2024-05-12 15.47.34.excalidraw.md",
-    "cimug2024/index.md",
     "cimug2024/Attachments/index 2024-05-12 19.55.05.excalidraw.md",
     "cimug2024/Attachments/index 2024-05-12 19.55.05.excalidraw.dark.svg",
     "cimug2024/Attachments/index 2024-05-12 20.13.34.excalidraw.md",
@@ -173,8 +186,6 @@
     "cimug2024/Attachments/index 2024-05-12 16.42.35.excalidraw.md",
     "cimug2024/Attachments/index 2024-05-12 16.14.43.excalidraw.md",
     "cimug2024/Attachments/index 2024-05-12 16.06.21.excalidraw.md",
-    "cimug2024/Attachments/index 2024-05-12 14.25.27.excalidraw.md",
-    "cimug2024/Attachments/index 2024-05-12 13.54.35.excalidraw.md",
     "cimug2024.bak/Attachments/index 2024-05-08 21.32.24.excalidraw.md",
     "cimug2024.bak/Attachments/index 2024-05-08 16.45.38.excalidraw.md",
     "cimug2024.bak/Attachments/index 2024-05-08 15.18.26.excalidraw.md",
@@ -194,7 +205,6 @@
     "cimug2024.bak/Attachments/Sparx EA 0.excalidraw.md",
     "cimug2024.bak/Attachments/Sparx EA 0.excalidraw.html",
     "cimug2024.bak/Attachments/Sparx EA - 2.bak.excalidraw.html",
-    "cimug2024.bak/Attachments/Semantic Web flowchart.excalidraw.html",
-    "cimug2024.bak/Attachments/Semantic Web flowchart.bak.excalidraw.html"
+    "cimug2024.bak/Attachments/Semantic Web flowchart.excalidraw.html"
   ]
 }

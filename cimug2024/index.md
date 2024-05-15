@@ -529,18 +529,18 @@ Can we make this even more cool?
 ---
 <!-- _class: with-bullets -->
 
-I want to improve interoperability with existing CIM tools.
-* Generating LinkML from EA.
-* Generating EA UML from LinkML
-* Interoperating with CIM Tool.
+I want to improve interoperability with existing CIM tools:
+* generating LinkML from EA;
+* generating EA UML from LinkML;
+* interoperating with CIM Tool.
 
 ---
 <!-- _class: with-bullets -->
 
 Also, we are investigating how to improve the LinkML ecosystem.
-* A GUI for Ritger's LinkML profiler;
-* Extensions for popular IDEs and text editors;
-* Etc.
+* a GUI for Ritger's LinkML profiler;
+* extensions for popular IDEs and text editors;
+* etc.
 
 ---
 

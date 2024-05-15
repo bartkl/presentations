@@ -80,10 +80,6 @@ Furthermore, data sharing between organisations is increasing...
 * improving cooperation.
 
 ---
-
-![](Attachments/index%202024-05-12%2014.25.27.excalidraw.light.svg)
-
----
 <!-- _class: with-bullets -->
 
 Managing data we have no or little control over is challenging.
@@ -151,7 +147,6 @@ Let's look at a small example of a LinkML schema.
 classes:
   ACDCConverterDCTerminal:
     is_a: DCBaseTerminal
-    from_schema: https://cim.ucaiug.io/ns#TC57CIM.IEC61970.Base.DC
     description: A DC electrical connection point at the AC/DC converter. The AC/DC
       converter is electrically connected also to the AC side. The AC connection is
       inherited from the AC conducting equipment in the same way as any other AC equipment.

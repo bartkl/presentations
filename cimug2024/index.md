@@ -520,22 +520,12 @@ Imagine how difficult much of the above would be using Sparx EA.
 
 ---
 
-But to make it even more cool...
+Can we make this even more cool?
 
 ---
 
 ## Road Ahead
 
----
-
-Currently LinkML is being used by Netbeheer Nederland, a cooperative initiative between DSOs in the Netherlands.
-* Is it of interest to others?
-
----
-
-What uses can the community come up with for LinkML?
-* Input is welcome!
-    
 ---
 <!-- _class: with-bullets -->
 
@@ -543,6 +533,25 @@ I want to improve interoperability with existing CIM tools.
 * Generating LinkML from EA.
 * Generating EA UML from LinkML
 * Interoperating with CIM Tool.
+
+---
+
+Also, we are investigating how to improve the LinkML ecosystem.
+* A GUI for Ritger's LinkML profiler;
+* Extensions for popular IDEs and text editors;
+* Etc.
+
+---
+
+Furthermore, I would love to see adoption increase.
+
+* Currently LinkML is being used by Netbeheer Nederland, a cooperative initiative between DSOs in the Netherlands...
+* but I'm sure it could be beneficial to others as well.
+
+---
+
+If you are interested in using LinkML or have any other questions or ideas...
+* feel free to contact me!
 
 ---
 

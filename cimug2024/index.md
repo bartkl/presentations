@@ -208,7 +208,7 @@ Collaboration and versioning becomes straightforward using a VCS like Git.
 ---
 
 Even external contributors can make changes...
-* and request merging those back to the upstream model.
+* and request merging those back in the upstream model.
 
 ---
 

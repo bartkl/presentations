@@ -124,6 +124,7 @@ Due to time constraints I will jump straight to LinkML.
 ![](Attachments/linkml_resized.png)
 
 LinkML is a data modeling language developed in the Bio Sciences department at Berkeley Lab.
+* It's open source.
 * LinkML is also a tool, with a growing ecosystem surrounding it.
 
 ---

@@ -1,0 +1,679 @@
+# The configurations that used for the recording, feel free to edit them
+config:
+
+  # Specify a command to be executed
+  # like `/bin/bash -l`, `ls`, or any other commands
+  # the default is bash for Linux
+  # or powershell.exe for Windows
+  command: bash -l
+  
+  # Specify the current working directory path
+  # the default is the current working directory path
+  cwd: /home/bart/Programming/alliander-opensource/cgmes-profiles/schemas
+  
+  # Export additional ENV variables
+  env:
+    recording: true
+  
+  # Explicitly set the number of columns
+  # or use `auto` to take the current
+  # number of columns of your shell
+  cols: 118
+  
+  # Explicitly set the number of rows
+  # or use `auto` to take the current
+  # number of rows of your shell
+  rows: 60
+  
+  # Amount of times to repeat GIF
+  # If value is -1, play once
+  # If value is 0, loop indefinitely
+  # If value is a positive number, loop n times
+  repeat: 0
+  
+  # Quality
+  # 1 - 100
+  quality: 100
+  
+  # Delay between frames in ms
+  # If the value is `auto` use the actual recording delays
+  frameDelay: auto
+  
+  # Maximum delay between frames in ms
+  # Ignored if the `frameDelay` isn't set to `auto`
+  # Set to `auto` to prevent limiting the max idle time
+  maxIdleTime: 2000
+  
+  # The surrounding frame box
+  # The `type` can be null, window, floating, or solid`
+  # To hide the title use the value null
+  # Don't forget to add a backgroundColor style with a null as type
+  frameBox:
+    type: floating
+    title: Terminalizer
+    style:
+      border: 0px black solid
+      # boxShadow: none
+      # margin: 0px
+  
+  # Add a watermark image to the rendered gif
+  # You need to specify an absolute path for
+  # the image on your machine or a URL, and you can also
+  # add your own CSS styles
+  watermark:
+    imagePath: null
+    style:
+      position: absolute
+      right: 15px
+      bottom: 15px
+      width: 100px
+      opacity: 0.9
+  
+  # Cursor style can be one of
+  # `block`, `underline`, or `bar`
+  cursorStyle: block
+  
+  # Font family
+  # You can use any font that is installed on your machine
+  # in CSS-like syntax
+  fontFamily: "Monaco, Lucida Console, Ubuntu Mono, Monospace"
+  
+  # The size of the font
+  fontSize: 12
+  
+  # The height of lines
+  lineHeight: 1
+  
+  # The spacing between letters
+  letterSpacing: 0
+  
+  # Theme
+  theme:
+    background: "transparent"
+    foreground: "#afafaf"
+    cursor: "#c7c7c7"
+    black: "#232628"
+    red: "#fc4384"
+    green: "#b3e33b"
+    yellow: "#ffa727"
+    blue: "#75dff2"
+    magenta: "#ae89fe"
+    cyan: "#708387"
+    white: "#d5d5d0"
+    brightBlack: "#626566"
+    brightRed: "#ff7fac"
+    brightGreen: "#c8ed71"
+    brightYellow: "#ebdf86"
+    brightBlue: "#75dff2"
+    brightMagenta: "#ae89fe"
+    brightCyan: "#b1c6ca"
+    brightWhite: "#f9f9f4"
+  
+# Records, feel free to edit them
+records:
+  - delay: 867
+    content: "\e[?2004h\e]0;bart@frasier: ~/Programming/alliander-opensource/cgmes-profiles/schemas\a\e[00;36m$\e[00m "
+  - delay: 392
+    content: l
+  - delay: 102
+    content: s
+  - delay: 279
+    content: ' '
+  - delay: 94
+    content: '-'
+  - delay: 160
+    content: '1'
+  - delay: 222
+    content: "\r\n\e[?2004l\r"
+  - delay: 6
+    content: "config.yml\r\ncore-equipment.yaml\r\ndiagram-layout.yaml\r\ndynamics.yaml\r\nequipment-boundary.yaml\r\ngeographical-location.yaml\r\noperation.yaml\r\nshort-circuit.yaml\r\nstate-variables.yaml\r\nsteady-state-hypothesis.yaml\r\ntopology.yaml\r\n\e[?2004h\e]0;bart@frasier: ~/Programming/alliander-opensource/cgmes-profiles/schemas\a\e[00;36m$\e[00m "
+  - delay: 1087
+    content: '#'
+  - delay: 180
+    content: ' '
+  - delay: 179
+    content: L
+  - delay: 163
+    content: e
+  - delay: 63
+    content: t
+  - delay: 122
+    content: ''''
+  - delay: 106
+    content: s
+  - delay: 206
+    content: ' '
+  - delay: 119
+    content: g
+  - delay: 66
+    content: e
+  - delay: 114
+    content: 'n'
+  - delay: 52
+    content: e
+  - delay: 62
+    content: r
+  - delay: 132
+    content: a
+  - delay: 89
+    content: t
+  - delay: 72
+    content: e
+  - delay: 214
+    content: ' '
+  - delay: 152
+    content: a
+  - delay: 90
+    content: ' '
+  - delay: 135
+    content: L
+  - delay: 343
+    content: i
+  - delay: 119
+    content: 'n'
+  - delay: 61
+    content: k
+  - delay: 200
+    content: M
+  - delay: 38
+    content: L
+  - delay: 129
+    content: ' '
+  - delay: 126
+    content: s
+  - delay: 66
+    content: c
+  - delay: 61
+    content: h
+  - delay: 78
+    content: e
+  - delay: 93
+    content: m
+  - delay: 36
+    content: a
+  - delay: 114
+    content: ' '
+  - delay: 53
+    content: b
+  - delay: 66
+    content: a
+  - delay: 49
+    content: s
+  - delay: 160
+    content: e
+  - delay: 83
+    content: d
+  - delay: 127
+    content: ' '
+  - delay: 83
+    content: o
+  - delay: 55
+    content: 'n'
+  - delay: 55
+    content: ' '
+  - delay: 71
+    content: t
+  - delay: 76
+    content: h
+  - delay: 79
+    content: e
+  - delay: 45
+    content: ' '
+  - delay: 280
+    content: '`'
+  - delay: 253
+    content: P
+  - delay: 178
+    content: o
+  - delay: 59
+    content: w
+  - delay: 48
+    content: e
+  - delay: 73
+    content: r
+  - delay: 288
+    content: T
+  - delay: 193
+    content: r
+  - delay: 228
+    content: a
+  - delay: 93
+    content: 'n'
+  - delay: 74
+    content: s
+  - delay: 144
+    content: f
+  - delay: 77
+    content: o
+  - delay: 98
+    content: r
+  - delay: 58
+    content: m
+  - delay: 68
+    content: e
+  - delay: 43
+    content: r
+  - delay: 132
+    content: '`'
+  - delay: 127
+    content: ' '
+  - delay: 54
+    content: c
+  - delay: 89
+    content: l
+  - delay: 68
+    content: a
+  - delay: 52
+    content: s
+  - delay: 102
+    content: s
+  - delay: 140
+    content: ' '
+  - delay: 58
+    content: i
+  - delay: 42
+    content: 'n'
+  - delay: 76
+    content: ' '
+  - delay: 97
+    content: t
+  - delay: 56
+    content: h
+  - delay: 101
+    content: e
+  - delay: 58
+    content: ' '
+  - delay: 179
+    content: '`'
+  - delay: 141
+    content: c
+  - delay: 113
+    content: o
+  - delay: 101
+    content: r
+  - delay: 35
+    content: e
+  - delay: 87
+    content: '-'
+  - delay: 156
+    content: q
+  - delay: 325
+    content: "\b\e[K"
+  - delay: 236
+    content: e
+  - delay: 504
+    content: q
+  - delay: 168
+    content: u
+  - delay: 46
+    content: i
+  - delay: 198
+    content: p
+  - delay: 188
+    content: m
+  - delay: 59
+    content: e
+  - delay: 80
+    content: 'n'
+  - delay: 101
+    content: t
+  - delay: 524
+    content: .
+  - delay: 250
+    content: 'y'
+  - delay: 42
+    content: a
+  - delay: 84
+    content: m
+  - delay: 56
+    content: l
+  - delay: 251
+    content: '`'
+  - delay: 322
+    content: ' '
+  - delay: 140
+    content: C
+  - delay: 169
+    content: G
+  - delay: 82
+    content: M
+  - delay: 12
+    content: E
+  - delay: 79
+    content: S
+  - delay: 189
+    content: ' '
+  - delay: 97
+    content: p
+  - delay: 68
+    content: r
+  - delay: 104
+    content: o
+  - delay: 86
+    content: f
+  - delay: 29
+    content: i
+  - delay: 136
+    content: l
+  - delay: 86
+    content: e
+  - delay: 87
+    content: .
+  - delay: 908
+    content: "\r\n\e[?2004l\r\e[?2004h\e]0;bart@frasier: ~/Programming/alliander-opensource/cgmes-profiles/schemas\a\e[00;36m$\e[00m "
+  - delay: 1075
+    content: g
+  - delay: 32
+    content: e
+  - delay: 64
+    content: 'n'
+  - delay: 273
+    content: '-'
+  - delay: 177
+    content: l
+  - delay: 183
+    content: i
+  - delay: 76
+    content: 'n'
+  - delay: 308
+    content: k
+  - delay: 199
+    content: m
+  - delay: 45
+    content: l
+  - delay: 196
+    content: '-'
+  - delay: 172
+    content: p
+  - delay: 112
+    content: r
+  - delay: 55
+    content: o
+  - delay: 11
+    content: p
+  - delay: 121
+    content: "\a"
+  - delay: 448
+    content: "\b\e[K"
+  - delay: 56
+    content: f
+  - delay: 128
+    content: 'ile '
+  - delay: 549
+    content: p
+  - delay: 100
+    content: r
+  - delay: 67
+    content: o
+  - delay: 123
+    content: f
+  - delay: 36
+    content: i
+  - delay: 124
+    content: l
+  - delay: 79
+    content: e
+  - delay: 67
+    content: ' '
+  - delay: 657
+    content: '-'
+  - delay: 517
+    content: "\b\e[K"
+  - delay: 194
+    content: c
+  - delay: 67
+    content: o
+  - delay: 111
+    content: "\a"
+  - delay: 605
+    content: r
+  - delay: 33
+    content: e
+  - delay: 220
+    content: '-equipment.yaml '
+  - delay: 804
+    content: '-'
+  - delay: 547
+    content: c
+  - delay: 122
+    content: ' '
+  - delay: 215
+    content: p
+  - delay: 356
+    content: "\b\e[K"
+  - delay: 149
+    content: P
+  - delay: 157
+    content: o
+  - delay: 69
+    content: w
+  - delay: 37
+    content: e
+  - delay: 67
+    content: r
+  - delay: 380
+    content: T
+  - delay: 149
+    content: r
+  - delay: 170
+    content: a
+  - delay: 66
+    content: 'n'
+  - delay: 67
+    content: s
+  - delay: 191
+    content: f
+  - delay: 65
+    content: o
+  - delay: 97
+    content: r
+  - delay: 51
+    content: m
+  - delay: 65
+    content: e
+  - delay: 41
+    content: r
+  - delay: 1413
+    content: ' '
+  - delay: 91
+    content: '|'
+  - delay: 199
+    content: ' '
+  - delay: 66
+    content: l
+  - delay: 63
+    content: e
+  - delay: 112
+    content: s
+  - delay: 158
+    content: s
+  - delay: 566
+    content: "\r\n\e[?2004l\r"
+  - delay: 7
+    content: "\e[?1049h\e[22;0;0t\e[?1h\e=\r"
+  - delay: 672
+    content: "[2024-06-17 12:09:24,862] [INFO] Importing linkml:types as /home/bart/Programming/gen-linkml-profile/.venv/lib/python3.11/site-packages/linkml_runtime/linkml_model/model/schema/types from source None; base_dir=None\r\n[2024-06-17 12:09:24,867] [INFO] Schema contains [182] classes, [19] types and [20] enums\r\n[2024-06-17 12:09:24,867] [INFO] Profiling classes: ConductingEquipment, Equipment, IdentifiedObject, PowerSystemResource, PowerTransformer\r\n[2024-06-17 12:09:24,867] [INFO] ------------------------------- PowerTransformer -------------------------------\r\n[2024-06-17 12:09:24,867] [INFO] Class \"PowerTransformer\" is used as range for slot \"PowerTransformerEnd::PowerTransformer\"\r\n[2024-06-17 12:09:24,867] [WARNING] Skipping optional slot \"PowerTransformer::PowerTransformerEnd\" with range: \"PowerTransformerEnd\"\r\n[2024-06-17 12:09:24,867] [INFO] ----------------------------- ConductingEquipment ------------------------------\r\n[2024-06-17 12:09:24,867] [INFO] Class \"ConductingEquipment\" is used as range for slot \"BaseVoltage::ConductingEquipment\"\r\n[2024-06-17 12:09:24,867] [INFO] Class \"ConductingEquipment\" is used as range for slot \"Terminal::ConductingEquipment\"\r\n[2024-06-17 12:09:24,867] [WARNING] Skipping optional slot \"ConductingEquipment::BaseVoltage\" with range: \"BaseVoltage\"\r\n[2024-06-17 12:09:24,867] [WARNING] Skipping optional slot \"ConductingEquipment::Terminals\" with range: \"Terminal\"\r\n[2024-06-17 12:09:24,867] [INFO] ---------------------------------- Equipment -----------------------------------\r\n[2024-06-17 12:09:24,867] [INFO] Class \"Equipment\" is used as range for slot \"EquipmentContainer::Equipments\"\r\n[2024-06-17 12:09:24,868] [INFO] Class \"Equipment\" is used as range for slot \"OperationalLimitSet::Equipment\"\r\n[2024-06-17 12:09:24,868] [WARNING] Skipping optional slot \"Equipment::EquipmentContainer\" with range: \"EquipmentContainer\"\r\n[2024-06-17 12:09:24,868] [WARNING] Skipping optional slot \"Equipment::OperationalLimitSet\" with range: \"OperationalLimitSet\"\r\n[2024-06-17 12:09:24,868] [INFO] ----------------------------- PowerSystemResource ------------------------------\r\n[2024-06-17 12:09:24,868] [INFO] ------------------------------- IdentifiedObject -------------------------------\r\n[2024-06-17 12:09:24,868] [INFO] ---------------------------------- Statistics ----------------------------------\r\n[2024-06-17 12:09:24,868] [INFO] Profiling [5] classes, [0] types and [0] enums\r\n"
+  - delay: 6
+    content: "name: CoreEquipmentProfile\r\ndescription: This vocabulary is describing the core equipment profile from IEC 61970-600-2.\r\ntitle: Core Equipment Vocabulary\r\nid: http://iec.ch/TC57/ns/CIM/CoreEquipment-EU#Package_CoreEquipmentProfile\r\nimports:\r\n- linkml:types\r\nprefixes:\r\n  linkml: https://w3id.org/linkml/\r\n  cim: http://iec.ch/TC57/CIM100#\r\n  cims: http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#\r\n  dc: http://purl.org/dc/elements/1.1/\r\n  dcat: http://www.w3.org/ns/dcat#\r\n  dct: http://purl.org/dc/terms/\r\n  eu: http://iec.ch/TC57/CIM100-European#\r\n  owl: http://www.w3.org/2002/07/owl#\r\n  profcim: http://iec.ch/TC57/ns/CIM/prof-cim#\r\n  rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#\r\n  rdfs: http://www.w3.org/2000/01/rdf-schema#\r\n  sh: http://www.w3.org/ns/shacl#\r\n  skos: http://www.w3.org/2004/02/skos/core#\r\n  xsd: http://www.w3.org/2001/XMLSchema#\r\n  eq: http://iec.ch/TC57/ns/CIM/CoreEquipment-EU#\r\n  this: http://iec.ch/TC57/ns/CIM/CoreEquipment-EU#Package_CoreEquipmentProfile\r\ndefault_curi_maps:\r\n- semweb_context\r\ndefault_prefix: this\r\ndefault_range: string\r\nclasses:\r\n  PowerTransformer:\r\n    description: 'An electrical device consisting of  two or more coupled windings,\r\n      with or without a magnetic core, for introducing mutual coupling between electric\r\n      circuits. Transformers can be used to control voltage and phase shift (active\r\n      power flow).\r\n\r\n      A power transformer may be composed of separate transformer tanks that need\r\n      not be identical.\r\n\r\n      A power transformer can be modelled with or without tanks and is intended for\r\n      use in both balanced and unbalanced representations.   A power transformer typically\r\n      has two terminals, but may have one (grounding), three or more terminals.\r\n\r\n      The inherited association ConductingEquipment.BaseVoltage should not be used.  The\r\n      association from TransformerEnd to BaseVoltage should be used instead.'\r\n    is_a: ConductingEquipment\r\n    class_uri: cim:PowerTransformer\r\n  ConductingEquipment:\r\n    description: The parts of the AC power system that are designed to carry current\r\n      or that are conductively connected through terminals.\r\n    is_a: Equipment\r\n    class_uri: cim:ConductingEquipment\r\n  Equipment:\r\n    description: The parts of a power system that are physical devices, electronic\r\n      or mechanical.\r\n    is_a: PowerSystemResource\r\n    attributes:\r\n      aggregate:\r\n        description: \"The aggregate flag provides an alternative way of representing\\\r\n          \\ an aggregated (equivalent) element. It is applicable in cases when the\\\r\n          \\ dedicated classes for equivalent equipment do not have all of the attributes\\\r\n:\e[K"
+  - delay: 1638
+    content: "\r\e[K \e[KESC\b\b\bESC\e[K[\b[\e[K6\b6\e[K~\b~\r\e[K          \\ necessary to represent the required level of detail.  In case the flag\\\r\n          \\ is set to \\u201Ctrue\\u201D the single instance of equipment represents\\\r\n          \\ multiple pieces of equipment that have been modelled together as an aggregate\\\r\n          \\ equivalent obtained by a network reduction procedure. Examples would be\\\r\n          \\ power transformers or synchronous machines operating in parallel modelled\\\r\n          \\ as a single aggregate power transformer or aggregate synchronous machine.\\\r\n          \\  \\nThe attribute is not used for EquivalentBranch, EquivalentShunt and\\\r\n          \\ EquivalentInjection.\"\r\n        slot_uri: cim:Equipment.aggregate\r\n        multivalued: false\r\n        range: boolean\r\n        required: false\r\n      normallyInService:\r\n        description: Specifies the availability of the equipment under normal operating\r\n          conditions. True means the equipment is available for topology processing,\r\n          which determines if the equipment is energized or not. False means that\r\n          the equipment is treated by network applications as if it is not in the\r\n          model.\r\n        slot_uri: cim:Equipment.normallyInService\r\n        multivalued: false\r\n        range: boolean\r\n        required: false\r\n    class_uri: cim:Equipment\r\n  PowerSystemResource:\r\n    description: A power system resource (PSR) can be an item of equipment such as\r\n      a switch, an equipment container containing many individual items of equipment\r\n      such as a substation, or an organisational entity such as sub-control area.\r\n      Power system resources can have measurements associated.\r\n    is_a: IdentifiedObject\r\n    class_uri: cim:PowerSystemResource\r\n  IdentifiedObject:\r\n    description: This is a root class to provide common identification for all classes\r\n      needing identification and naming attributes.\r\n    attributes:\r\n      description:\r\n        description: The description is a free human readable text describing or naming\r\n          the object. It may be non unique and may not correlate to a naming hierarchy.\r\n        slot_uri: cim:IdentifiedObject.description\r\n        multivalued: false\r\n        range: string\r\n        required: false\r\n      energyIdentCodeEic:\r\n        description: The attribute is used for an exchange of the EIC code (Energy\r\n          identification Code). The length of the string is 16 characters as defined\r\n          by the EIC code. For details on EIC scheme please refer to ENTSO-E web site.\r\n        slot_uri: eu:IdentifiedObject.energyIdentCodeEic\r\n        multivalued: false\r\n        range: string\r\n        required: false\r\n      mRID:\r\n        description: 'Master resource identifier issued by a model authority. The\r\n          mRID is unique within an exchange context. Global uniqueness is easily achieved\r\n          by using a UUID, as specified in RFC 4122, for the mRID. The use of UUID\r\n          is strongly recommended.\r\n\r\n          For CIMXML data files in RDF syntax conforming to IEC 61970-552, the mRID\r\n          is mapped to rdf:ID or rdf:about attributes that identify CIM object elements.'\r\n        slot_uri: cim:IdentifiedObject.mRID\r\n        multivalued: false\r\n:\e[K"
+  - delay: 473
+    content: "\r\e[K \e[KESC\b\b\bESC\e[K[\b[\e[K6\b6\e[K~\b~\r\e[K        range: string\r\n        required: true\r\n      shortName:\r\n        description: The attribute is used for an exchange of a human readable short\r\n          name with length of the string 12 characters maximum.\r\n        slot_uri: eu:IdentifiedObject.shortName\r\n        multivalued: false\r\n        range: string\r\n        required: false\r\n    class_uri: cim:IdentifiedObject\r\n\r\n\e[7m(END)\e[27m\e[K"
+  - delay: 1060
+    content: "\r\e[K \e[KESC\b\b\bESC\e[K[\b[\e[K6\b6\e[K~\b~\r\e[K\a\r\e[K\e[7m(END)\e[27m\e[K"
+  - delay: 607
+    content: "\r\e[K \e[KESC\b\b\bESC\e[K[\b[\e[K5\b5\e[K~\b~\r\e[K\e[H\eM        range: boolean\r\n\e[H\eM        multivalued: false\r\n\e[H\eM        slot_uri: cim:Equipment.aggregate\r\n\e[H\eM          \\ EquivalentInjection.\"\r\n\e[H\eM          \\  \\nThe attribute is not used for EquivalentBranch, EquivalentShunt and\\\r\n\e[H\eM          \\ as a single aggregate power transformer or aggregate synchronous machine.\\\r\n\e[H\eM          \\ power transformers or synchronous machines operating in parallel modelled\\\r\n\e[H\eM          \\ equivalent obtained by a network reduction procedure. Examples would be\\\r\n\e[H\eM          \\ multiple pieces of equipment that have been modelled together as an aggregate\\\r\n\e[H\eM          \\ is set to \\u201Ctrue\\u201D the single instance of equipment represents\\\r\n\e[H\eM          \\ necessary to represent the required level of detail.  In case the flag\\\r\n\e[H\eM          \\ dedicated classes for equivalent equipment do not have all of the attributes\\\r\n\e[H\eM          \\ an aggregated (equivalent) element. It is applicable in cases when the\\\r\n\e[H\eM        description: \"The aggregate flag provides an alternative way of representing\\\r\n\e[H\eM      aggregate:\r\n\e[H\eM    attributes:\r\n\e[H\eM    is_a: PowerSystemResource\r\n\e[H\eM      or mechanical.\r\n\e[H\eM    description: The parts of a power system that are physical devices, electronic\r\n\e[H\eM  Equipment:\r\n\e[H\eM    class_uri: cim:ConductingEquipment\r\n\e[H\eM    is_a: Equipment\r\n\e[H\eM      or that are conductively connected through terminals.\r\n\e[H\eM    description: The parts of the AC power system that are designed to carry current\r\n\e[H\eM  ConductingEquipment:\r\n\e[H\eM    class_uri: cim:PowerTransformer\r\n\e[H\eM    is_a: ConductingEquipment\r\n\e[H\eM      association from TransformerEnd to BaseVoltage should be used instead.'\r\n\e[H\eM      The inherited association ConductingEquipment.BaseVoltage should not be used.  The\r\n\e[H\eM\r\n\e[H\eM      has two terminals, but may have one (grounding), three or more terminals.\r\n\e[H\eM      use in both balanced and unbalanced representations.   A power transformer typically\r\n\e[H\eM      A power transformer can be modelled with or without tanks and is intended for\r\n\e[H\eM\r\n\e[H\eM      not be identical.\r\n\e[H\eM      A power transformer may be composed of separate transformer tanks that need\r\n\e[H\eM\r\n\e[H\eM      power flow).\r\n\e[H\eM      circuits. Transformers can be used to control voltage and phase shift (active\r\n\e[H\eM      with or without a magnetic core, for introducing mutual coupling between electric\r\n\e[H\eM    description: 'An electrical device consisting of  two or more coupled windings,\r\n\e[H\eM  PowerTransformer:\r\n\e[H\eMclasses:\r\n\e[H\eMdefault_range: string\r\n\e[H\eMdefault_prefix: this\r\n\e[H\eM- semweb_context\r\n\e[H\eMdefault_curi_maps:\r\n\e[H\eM  this: http://iec.ch/TC57/ns/CIM/CoreEquipment-EU#Package_CoreEquipmentProfile\r\n\e[H\eM  eq: http://iec.ch/TC57/ns/CIM/CoreEquipment-EU#\r\n\e[H\eM  xsd: http://www.w3.org/2001/XMLSchema#\r\n\e[H\eM  skos: http://www.w3.org/2004/02/skos/core#\r\n\e[H\eM  sh: http://www.w3.org/ns/shacl#\r\n\e[H\eM  rdfs: http://www.w3.org/2000/01/rdf-schema#\r\n\e[H\eM  rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#\r\n\e[H\eM  profcim: http://iec.ch/TC57/ns/CIM/prof-cim#\r\n\e[H\eM  owl: http://www.w3.org/2002/07/owl#\r\n\e[H\eM  eu: http://iec.ch/TC57/CIM100-European#\r\n\e[H\eM  dct: http://purl.org/dc/terms/\r\n\e[H\eM  dcat: http://www.w3.org/ns/dcat#\r\n\e[60;1H\r\e[K:\e[K"
+  - delay: 689
+    content: "\r\e[K \e[KESC\b\b\bESC\e[K[\b[\e[K5\b5\e[K~\b~\r\e[K\e[H\eM  dc: http://purl.org/dc/elements/1.1/\r\n\e[H\eM  cims: http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#\r\n\e[H\eM  cim: http://iec.ch/TC57/CIM100#\r\n\e[H\eM  linkml: https://w3id.org/linkml/\r\n\e[H\eMprefixes:\r\n\e[H\eM- linkml:types\r\n\e[H\eMimports:\r\n\e[H\eMid: http://iec.ch/TC57/ns/CIM/CoreEquipment-EU#Package_CoreEquipmentProfile\r\n\e[H\eMtitle: Core Equipment Vocabulary\r\n\e[H\eMdescription: This vocabulary is describing the core equipment profile from IEC 61970-600-2.\r\n\e[H\eMname: CoreEquipmentProfile\r\n\e[60;1H\r\e[K:\e[K"
+  - delay: 774
+    content: "\r\e[K \e[KESC\b\b\bESC\e[K[\b[\e[K5\b5\e[K~\b~\r\e[K\a\r\e[K:\e[K"
+  - delay: 537
+    content: "\r\e[K\e[?1l\e>\e[?1049l\e[23;0;0t\e[?2004h\e]0;bart@frasier: ~/Programming/alliander-opensource/cgmes-profiles/schemas\a\e[00;36m$\e[00m "
+  - delay: 1032
+    content: '#'
+  - delay: 148
+    content: ' '
+  - delay: 101
+    content: L
+  - delay: 122
+    content: e
+  - delay: 46
+    content: t
+  - delay: 245
+    content: s
+  - delay: 446
+    content: "\b\e[K"
+  - delay: 166
+    content: ''''
+  - delay: 41
+    content: s
+  - delay: 92
+    content: ' '
+  - delay: 41
+    content: t
+  - delay: 84
+    content: a
+  - delay: 79
+    content: k
+  - delay: 82
+    content: e
+  - delay: 68
+    content: ' '
+  - delay: 108
+    content: a
+  - delay: 91
+    content: ' '
+  - delay: 63
+    content: l
+  - delay: 178
+    content: o
+  - delay: 109
+    content: o
+  - delay: 25
+    content: k
+  - delay: 87
+    content: ' '
+  - delay: 68
+    content: a
+  - delay: 59
+    content: t
+  - delay: 170
+    content: ' '
+  - delay: 64
+    content: t
+  - delay: 65
+    content: h
+  - delay: 71
+    content: e
+  - delay: 78
+    content: ' '
+  - delay: 1103
+    content: s
+  - delay: 133
+    content: u
+  - delay: 49
+    content: b
+  - delay: 152
+    content: c
+  - delay: 99
+    content: l
+  - delay: 56
+    content: a
+  - delay: 43
+    content: s
+  - delay: 153
+    content: s
+  - delay: 62
+    content: ' '
+  - delay: 76
+    content: h
+  - delay: 62
+    content: i
+  - delay: 68
+    content: e
+  - delay: 40
+    content: r
+  - delay: 248
+    content: a
+  - delay: 69
+    content: r
+  - delay: 205
+    content: c
+  - delay: 64
+    content: h
+  - delay: 147
+    content: 'y'
+  - delay: 236
+    content: .
+  - delay: 932
+    content: "\r\n\e[?2004l\r\e[?2004h\e]0;bart@frasier: ~/Programming/alliander-opensource/cgmes-profiles/schemas\a\e[00;36m$\e[00m "
+  - delay: 916
+    content: '# Let''s take a look at the subclass hierarchy.'
+  - delay: 1076
+    content: "\r\e[C\e[Cgen-linkml-profile profile core-equipment.yaml -c PowerTransformer | less"
+  - delay: 685
+    content: "\b\b\b\b\e[K"
+  - delay: 792
+    content: g
+  - delay: 38
+    content: e
+  - delay: 33
+    content: 'n'
+  - delay: 180
+    content: '-'
+  - delay: 168
+    content: l
+  - delay: 388
+    content: i
+  - delay: 810
+    content: 'n'
+  - delay: 96
+    content: k
+  - delay: 240
+    content: "\aml"
+  - delay: 623
+    content: '-'
+  - delay: 165
+    content: p
+  - delay: 53
+    content: r
+  - delay: 93
+    content: o
+  - delay: 104
+    content: f
+  - delay: 54
+    content: i
+  - delay: 107
+    content: l
+  - delay: 54
+    content: e
+  - delay: 59
+    content: ' '
+  - delay: 94
+    content: c
+  - delay: 79
+    content: h
+  - delay: 36
+    content: i
+  - delay: 154
+    content: l
+  - delay: 64
+    content: d
+  - delay: 171
+    content: r
+  - delay: 39
+    content: e
+  - delay: 32
+    content: 'n'
+  - delay: 1177
+    content: "\r\n\e[?2004l\r"
+  - delay: 689
+    content: "[2024-06-17 12:09:47,952] [INFO] Importing linkml:types as /home/bart/Programming/gen-linkml-profile/.venv/lib/python3.11/site-packages/linkml_runtime/linkml_model/model/schema/types from source None; base_dir=None\r\n"
+  - delay: 5
+    content: "[2024-06-17 12:09:47,956] [INFO] Schema contains [182] classes, [19] types and [20] enums\r\n[2024-06-17 12:09:47,957] [INFO] Profiling classes: ConductingEquipment, Equipment, IdentifiedObject, PowerSystemResource, PowerTransformer\r\n[2024-06-17 12:09:47,957] [INFO] ------------------------------- PowerTransformer -------------------------------\r\n[2024-06-17 12:09:47,958] [INFO] Class \"PowerTransformer\" is used as range for slot \"PowerTransformerEnd::PowerTransformer\"\r\n[2024-06-17 12:09:47,958] [WARNING] Skipping optional slot \"PowerTransformer::PowerTransformerEnd\" with range: \"PowerTransformerEnd\"\r\n[2024-06-17 12:09:47,958] [INFO] ----------------------------- ConductingEquipment ------------------------------\r\n[2024-06-17 12:09:47,958] [INFO] Class \"ConductingEquipment\" is used as range for slot \"BaseVoltage::ConductingEquipment\"\r\n[2024-06-17 12:09:47,958] [INFO] Class \"ConductingEquipment\" is used as range for slot \"Terminal::ConductingEquipment\"\r\n[2024-06-17 12:09:47,958] [WARNING] Skipping optional slot \"ConductingEquipment::BaseVoltage\" with range: \"BaseVoltage\"\r\n[2024-06-17 12:09:47,958] [WARNING] Skipping optional slot \"ConductingEquipment::Terminals\" with range: \"Terminal\"\r\n[2024-06-17 12:09:47,958] [INFO] ---------------------------------- Equipment -----------------------------------\r\n[2024-06-17 12:09:47,958] [INFO] Class \"Equipment\" is used as range for slot \"EquipmentContainer::Equipments\"\r\n[2024-06-17 12:09:47,958] [INFO] Class \"Equipment\" is used as range for slot \"OperationalLimitSet::Equipment\"\r\n[2024-06-17 12:09:47,959] [WARNING] Skipping optional slot \"Equipment::EquipmentContainer\" with range: \"EquipmentContainer\"\r\n[2024-06-17 12:09:47,959] [WARNING] Skipping optional slot \"Equipment::OperationalLimitSet\" with range: \"OperationalLimitSet\"\r\n[2024-06-17 12:09:47,959] [INFO] ----------------------------- PowerSystemResource ------------------------------\r\n[2024-06-17 12:09:47,959] [INFO] ------------------------------- IdentifiedObject -------------------------------\r\n[2024-06-17 12:09:47,959] [INFO] ---------------------------------- Statistics ----------------------------------\r\n[2024-06-17 12:09:47,959] [INFO] Profiling [5] classes, [0] types and [0] enums\r\n"
+  - delay: 91
+    content: "[2024-06-17 12:09:48,050] [INFO] Importing linkml:types as /home/bart/Programming/gen-linkml-profile/.venv/lib/python3.11/site-packages/linkml_runtime/linkml_model/model/schema/types from source None; base_dir=None\r\n[2024-06-17 12:09:48,053] [INFO] Profiling [5] classes, [19] types and [0] enums\r\n\r\nIdentifiedObject\r\n└── PowerSystemResource\r\n    └── Equipment\r\n        └── ConductingEquipment\r\n            └── PowerTransformer\r\n\r\n"
+  - delay: 59
+    content: "\e[?2004h\e]0;bart@frasier: ~/Programming/alliander-opensource/cgmes-profiles/schemas\a\e[00;36m$\e[00m "
+  - delay: 1971
+    content: "\e[?2004l\r\r\nlogout\r\n"

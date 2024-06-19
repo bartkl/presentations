@@ -103,7 +103,7 @@ Not just within the organisation do we face data challenges.
 As a grid operator, we have major challenges:
 * Sustainability deadlines
 * Network congestion
-* Sesource scarcity
+* Resource scarcity
 * Etc.
 
 ---
@@ -129,7 +129,7 @@ The CIM is an information model that's the result of decades long international 
 
 It's a very large object oriented UML model in the Sparx Enterprise Architect application:
 * Classes represent entities
-* Classes have attributes.
+* Classes have attributes
 * Between classes there exist various types of relationships
 
 ---
@@ -145,7 +145,7 @@ It provides a great vocabulary for speaking the same 'data language' between gri
 * No Linked Data compatibility
 * Hard to interoperate with other tools
 * Hard to do version management and CI/CD automation
-* Heavily disliked by developers.
+* Heavily disliked by developers
 
 ---
 
@@ -157,7 +157,7 @@ How can we utilize this great standard such that it will be useful and adopted b
 
 ---
 
-There is also a OWL version of the CIM
+There is also an OWL version of the CIM.
 * It is generated from the UML.
 
 ---
@@ -185,7 +185,7 @@ It's not perfect, but at least we have URIs which identify CIM model elements.
 
 Many challenges arose:
 * Business minded people failed to understand the necessity of formal, machine readable models.
-* Developers often don't understand the need for information standardization.
+* Developers often struggle to appreciate the need for information standardization.
 * SHACL and RDF were a hard sell on developers in terms of syntax and complexity.
 
 ---
@@ -283,6 +283,17 @@ Ritger Teunissen has built a CLI profiler that makes it easy to create schemas b
 ---
 
 ![bg 50%](Attachments/render1718618997001-min.gif)
+
+---
+
+## Road Ahead
+
+---
+<!-- _class: with-bullets -->
+
+* Dutch grid operators are currently using LinkML to define data models for data sharing.
+* At the European level LinkML is being considered as an interesting tool as well.
+* Within Alliander teams are starting to work with LinkML too.
 
 ---
 <!-- _class: align-center -->

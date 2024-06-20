@@ -100,10 +100,10 @@ Not just within the organisation do we face data challenges.
 ---
 <!-- _class: with-bullets -->
 
-As a grid operator, we have major challenges:
+As a grid operator, we face a variety of challenges:
 * Sustainability deadlines
 * Network congestion
-* Resource scarcity
+* Personnel scarcity
 * Etc.
 
 ---

@@ -1,7 +1,7 @@
 ---
 marp: true
 theme: minimal
-title: "Standardized Developer-Friendly Data Modeling with LinkML"
+title: "Standardized Developer-Friendly Data Modeling with LinkML and the CIM"
 size: 16:9
 footer: "![w:100px h:60px](Attachments/alliander_logo.png)"
 style: |-
@@ -43,7 +43,7 @@ style: |-
   }
 ---
 
-# Standardized Developer-Friendly Data Modeling with LinkML
+# Standardized Developer-Friendly Data Modeling with LinkML and the CIM
 
 ###### Bart Kleijngeld | June 20th, 2024
 
